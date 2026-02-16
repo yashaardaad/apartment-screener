@@ -1,0 +1,66 @@
+{
+  "last_updated": "2026-02-15T10:00:00",
+  "count": 5,
+  "listings": [
+    {
+      "title": "Modern 1BR in Loop - In-Unit Laundry",
+      "price": 1350.0,
+      "address": "200 N State St, Chicago, IL 60601",
+      "url": "https://example.com/listing1",
+      "source": "Apartments.com",
+      "amenities": ["laundry", "internet", "parking", "ac"],
+      "lat": 41.8862,
+      "lon": -87.6279,
+      "description": "Beautiful 1BR with in-unit washer/dryer, high-speed internet, parking garage, central air conditioning.",
+      "scraped_at": "2026-02-15T10:00:00"
+    },
+    {
+      "title": "Spacious 1BR Near Millennium Park",
+      "price": 1200.0,
+      "address": "150 E Randolph St, Chicago, IL 60601",
+      "url": "https://example.com/listing2",
+      "source": "Craigslist",
+      "amenities": ["laundry", "internet", "ac"],
+      "lat": 41.8848,
+      "lon": -87.6226,
+      "description": "Spacious apartment near Millennium Park. Washer/dryer in unit. WiFi ready. Central air.",
+      "scraped_at": "2026-02-15T10:00:00"
+    },
+    {
+      "title": "Cozy 1BR in West Loop",
+      "price": 1450.0,
+      "address": "900 W Washington Blvd, Chicago, IL 60607",
+      "url": "https://example.com/listing3",
+      "source": "Rent.com",
+      "amenities": ["laundry", "parking", "ac"],
+      "lat": 41.8826,
+      "lon": -87.6500,
+      "description": "West Loop 1BR with in-unit laundry, reserved parking spot, AC.",
+      "scraped_at": "2026-02-15T10:00:00"
+    },
+    {
+      "title": "Affordable 1BR in South Loop",
+      "price": 1100.0,
+      "address": "1400 S Michigan Ave, Chicago, IL 60605",
+      "url": "https://example.com/listing4",
+      "source": "Apartments.com",
+      "amenities": ["internet", "parking", "ac"],
+      "lat": 41.8626,
+      "lon": -87.6241,
+      "description": "Budget-friendly South Loop apartment. High-speed internet included. Garage parking. HVAC.",
+      "scraped_at": "2026-02-15T10:00:00"
+    },
+    {
+      "title": "Renovated 1BR in Lincoln Park",
+      "price": 1400.0,
+      "address": "2400 N Lincoln Ave, Chicago, IL 60614",
+      "url": "https://example.com/listing5",
+      "source": "Craigslist",
+      "amenities": ["laundry", "internet", "parking", "ac"],
+      "lat": 41.9262,
+      "lon": -87.6497,
+      "description": "Newly renovated 1BR in Lincoln Park. W/D in unit. Fiber internet. Parking available. Central air.",
+      "scraped_at": "2026-02-15T10:00:00"
+    }
+  ]
+}

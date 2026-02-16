@@ -1,0 +1,51 @@
+name: Weekly Apartment Screen
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Score and rank listings
+        run: python scoring.py
+
+      - name: Send SMS notification
+        if: env.SMS_RECIPIENT != ''
+        env:
+          SMS_RECIPIENT: ${{ secrets.SMS_RECIPIENT }}
+        run: |
+          python -c "
+          from scraper import load_listings
+          from scoring import score_and_rank
+          from notifier import notify
+          listings = load_listings()
+          if listings:
+              ranked = score_and_rank(listings)
+              notify(ranked)
+          "
+
+      - name: Commit updated listings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/listings.json
+          git diff --staged --quiet || git commit -m "Update apartment listings [automated]"
+          git push
