@@ -6,7 +6,6 @@ import json
 import random
 import re
 import time
-import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from typing import Optional
@@ -25,7 +24,7 @@ class Listing:
     address: str
     url: str
     source: str
-    amenities: list[str] = field(default_factory=list)
+    amenities: list = field(default_factory=list)
     lat: Optional[float] = None
     lon: Optional[float] = None
     description: str = ""
@@ -55,33 +54,29 @@ def _random_delay():
     time.sleep(random.uniform(config.REQUEST_DELAY_MIN, config.REQUEST_DELAY_MAX))
 
 
-def _matches_amenities(text: str) -> tuple[bool, list[str]]:
+def _matches_amenities(text: str) -> tuple:
     """Check if text contains required amenity keywords.
 
     Returns (passes_filter, list_of_matched_amenities).
-    A listing passes if it matches at least one keyword from each amenity group.
     """
     text_lower = text.lower()
     matched = []
-    groups_matched = 0
 
     for group_name, keywords in config.AMENITY_GROUPS.items():
         for kw in keywords:
             if kw in text_lower:
                 matched.append(group_name)
-                groups_matched += 1
                 break
 
-    # Require at least 2 out of 4 amenity groups to keep results useful
-    return groups_matched >= 2, list(set(matched))
+    return len(matched) >= 2, list(set(matched))
 
 
 def _extract_price(text: str) -> Optional[float]:
     """Extract price from text like '$1,200' or '1200/mo'."""
-    match = re.search(r"\$?([\d,]+)", text.replace(",", ""))
+    match = re.search(r"\$[\d,]+", text)
     if match:
         try:
-            price = float(match.group(1).replace(",", ""))
+            price = float(match.group().replace("$", "").replace(",", ""))
             if 300 < price <= config.MAX_PRICE:
                 return price
         except ValueError:
@@ -89,13 +84,18 @@ def _extract_price(text: str) -> Optional[float]:
     return None
 
 
-def scrape_apartments_com() -> list[Listing]:
-    """Scrape Apartments.com for Chicago 1BR listings."""
+def scrape_craigslist() -> list:
+    """Scrape Craigslist Chicago apartments via HTML search page.
+
+    Parses the static search result list items which contain title, price,
+    location, and direct links to individual listings.
+    """
     listings = []
     session = _get_session()
+
     url = (
-        f"https://www.apartments.com/1-bedrooms-under-{config.MAX_PRICE}/"
-        f"{config.SEARCH_CITY.lower()}-{config.SEARCH_STATE.lower()}/"
+        "https://chicago.craigslist.org/search/chicago-il/apa"
+        "?max_price={}&min_bedrooms=1&max_bedrooms=1".format(config.MAX_PRICE)
     )
 
     try:
@@ -103,114 +103,204 @@ def scrape_apartments_com() -> list[Listing]:
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        # Apartments.com uses placard-content for listing cards
-        cards = soup.select("li.mortar-wrapper article.placard")
-        if not cards:
-            cards = soup.select("div.placard-content")
-
-        for card in cards[:50]:  # limit to avoid overloading
+        # Build a lat/lon lookup from JSON-LD data
+        coords_by_name = {}
+        for script in soup.find_all("script", type="application/ld+json"):
             try:
-                title_el = card.select_one("span.js-placardTitle, .property-title")
-                price_el = card.select_one("p.property-pricing, span.property-rents")
-                address_el = card.select_one("div.property-address, p.property-address")
-                link_el = card.select_one("a.property-link") or card.find("a", href=True)
+                ld_data = json.loads(script.string)
+                if not isinstance(ld_data, dict):
+                    continue
+                for item in ld_data.get("itemListElement", []):
+                    entry = item.get("item", item) if isinstance(item, dict) else {}
+                    if not isinstance(entry, dict):
+                        continue
+                    name = entry.get("name", "")
+                    lat = entry.get("latitude")
+                    lon = entry.get("longitude")
+                    if name and lat and lon:
+                        try:
+                            coords_by_name[name.strip().lower()] = (float(lat), float(lon))
+                        except (ValueError, TypeError):
+                            pass
+            except (json.JSONDecodeError, AttributeError):
+                continue
 
-                if not (title_el and price_el):
+        # Parse the HTML result cards — each is an <li> with an <a> containing the link
+        results = soup.select("li.cl-static-search-result")
+        for result in results:
+            try:
+                link_el = result.find("a", href=True)
+                if not link_el:
                     continue
 
-                title = title_el.get_text(strip=True)
-                price = _extract_price(price_el.get_text(strip=True))
+                listing_url = link_el["href"]
+                if not listing_url.startswith("http"):
+                    listing_url = "https://chicago.craigslist.org" + listing_url
+
+                title_el = result.select_one("div.title")
+                title = title_el.get_text(strip=True) if title_el else link_el.get_text(strip=True)
+
+                price_el = result.select_one("div.price")
+                price_text = price_el.get_text(strip=True) if price_el else title
+                price = _extract_price(price_text)
                 if price is None:
                     continue
 
-                address = address_el.get_text(strip=True) if address_el else ""
-                link = link_el["href"] if link_el else ""
-                if link and not link.startswith("http"):
-                    link = "https://www.apartments.com" + link
+                location_el = result.select_one("div.location")
+                location = location_el.get_text(strip=True) if location_el else ""
+                address = "{}, Chicago, IL".format(location) if location else "Chicago, IL"
 
-                # Collect all text for amenity matching
-                card_text = card.get_text(" ", strip=True)
-                passes, matched_amenities = _matches_amenities(card_text)
+                # Look up coordinates from JSON-LD
+                lat, lon = coords_by_name.get(title.strip().lower(), (None, None))
+
+                combined = "{} {}".format(title, location)
+                passes, matched_amenities = _matches_amenities(combined)
 
                 listings.append(Listing(
                     title=title,
                     price=price,
                     address=address,
-                    url=link,
-                    source="Apartments.com",
+                    url=listing_url,
+                    source="Craigslist",
                     amenities=matched_amenities,
-                    description=card_text[:500],
+                    lat=lat,
+                    lon=lon,
                 ))
             except Exception:
                 continue
 
         _random_delay()
     except Exception as e:
-        print(f"[Apartments.com] Error: {e}")
+        print("[Craigslist] Error: {}".format(e))
 
-    print(f"[Apartments.com] Found {len(listings)} listings")
+    print("[Craigslist] Found {} listings".format(len(listings)))
     return listings
 
 
-def scrape_craigslist() -> list[Listing]:
-    """Scrape Craigslist Chicago apartments via RSS feed."""
+def scrape_padmapper() -> list:
+    """Scrape PadMapper for Chicago 1BR listings via __PRELOADED_STATE__ JSON.
+
+    PadMapper embeds structured listing data in a window.__PRELOADED_STATE__
+    variable. Listings are at state.currentSearch.listables.listables.
+    """
     listings = []
     session = _get_session()
 
-    # Craigslist RSS feed for apartments in Chicago
-    url = (
-        "https://chicago.craigslist.org/search/apa"
-        f"?max_price={config.MAX_PRICE}&min_bedrooms=1&max_bedrooms=1"
-        "&format=rss"
+    url = "https://www.padmapper.com/apartments/chicago-il/1-beds/under-{}".format(
+        config.MAX_PRICE
     )
 
     try:
         resp = session.get(url, timeout=30)
         resp.raise_for_status()
 
-        root = ET.fromstring(resp.content)
-        ns = {"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"}
+        # Extract __PRELOADED_STATE__ JSON
+        match = re.search(
+            r"window\.__PRELOADED_STATE__\s*=\s*(\{.+?\})\s*;",
+            resp.text,
+            re.DOTALL,
+        )
+        if not match:
+            print("[PadMapper] Could not find __PRELOADED_STATE__")
+            return listings
 
-        items = root.findall(".//item")
-        for item in items[:50]:
+        try:
+            state = json.loads(match.group(1))
+        except json.JSONDecodeError as e:
+            print("[PadMapper] JSON parse error: {}".format(e))
+            return listings
+
+        # Listings are at: state.currentSearch.listables.listables
+        search_data = state.get("currentSearch", {})
+        listables_wrapper = search_data.get("listables", {})
+        if not isinstance(listables_wrapper, dict):
+            print("[PadMapper] Unexpected listables structure")
+            return listings
+
+        items = listables_wrapper.get("listables", [])
+        if not isinstance(items, list):
+            items = []
+
+        for prop in items:
+            if not isinstance(prop, dict):
+                continue
             try:
-                title_el = item.find("title")
-                link_el = item.find("link")
-                desc_el = item.find("description")
+                # Price: use min_price for the cheapest option
+                price = None
+                for pk in ["min_price", "max_price"]:
+                    val = prop.get(pk)
+                    if val is not None:
+                        try:
+                            price = float(val)
+                            if price <= config.MAX_PRICE:
+                                break
+                        except (ValueError, TypeError):
+                            pass
 
-                if title_el is None or link_el is None:
+                if not price or price > config.MAX_PRICE or price < 300:
                     continue
 
-                title_text = title_el.text or ""
-                price = _extract_price(title_text)
-                if price is None:
-                    continue
+                # Address
+                addr_parts = [
+                    prop.get("address", ""),
+                    prop.get("city", ""),
+                    prop.get("state", ""),
+                ]
+                address = ", ".join(p for p in addr_parts if p)
+                if not address:
+                    address = "Chicago, IL"
 
-                desc_text = desc_el.text if desc_el is not None else ""
-                combined_text = f"{title_text} {desc_text}"
-                passes, matched_amenities = _matches_amenities(combined_text)
+                # Title: prefer building_name, fall back to address
+                building_name = prop.get("building_name") or prop.get("agent_name") or ""
+                title = building_name if building_name else address
+
+                # Coordinates
+                lat = None
+                lon = None
+                try:
+                    lat = float(prop["lat"]) if prop.get("lat") else None
+                    lon = float(prop["lng"]) if prop.get("lng") else None
+                except (ValueError, TypeError):
+                    pass
+
+                # URL — use padmapper_url or url field
+                listing_url = prop.get("padmapper_url") or prop.get("url") or ""
+                if listing_url and not listing_url.startswith("http"):
+                    listing_url = "https://www.padmapper.com" + listing_url
+
+                # Amenities — PadMapper provides amenity_tags and building_amenity_tags
+                amenity_tags = prop.get("amenity_tags", []) or []
+                building_tags = prop.get("building_amenity_tags", []) or []
+                all_tags = amenity_tags + building_tags
+                tags_text = " ".join(str(t) for t in all_tags)
+
+                desc = prop.get("short_description") or ""
+                combined = "{} {} {} {}".format(title, desc, address, tags_text)
+                passes, matched_amenities = _matches_amenities(combined)
 
                 listings.append(Listing(
-                    title=title_text,
+                    title=title,
                     price=price,
-                    address="Chicago, IL",  # CL doesn't always include address
-                    url=link_el.text or "",
-                    source="Craigslist",
+                    address=address,
+                    url=listing_url,
+                    source="PadMapper",
                     amenities=matched_amenities,
-                    description=desc_text[:500] if desc_text else "",
+                    lat=lat,
+                    lon=lon,
+                    description=tags_text[:500],
                 ))
             except Exception:
                 continue
 
         _random_delay()
     except Exception as e:
-        print(f"[Craigslist] Error: {e}")
+        print("[PadMapper] Error: {}".format(e))
 
-    print(f"[Craigslist] Found {len(listings)} listings")
+    print("[PadMapper] Found {} listings".format(len(listings)))
     return listings
 
 
-def scrape_zillow_api() -> list[Listing]:
+def scrape_zillow_api() -> list:
     """Fetch listings from Zillow via RapidAPI (requires RAPIDAPI_KEY)."""
     if not config.RAPIDAPI_KEY:
         print("[Zillow API] Skipped - no RAPIDAPI_KEY set")
@@ -219,7 +309,7 @@ def scrape_zillow_api() -> list[Listing]:
     listings = []
     url = "https://zillow-com1.p.rapidapi.com/propertyExtendedSearch"
     params = {
-        "location": f"{config.SEARCH_CITY}, {config.SEARCH_STATE}",
+        "location": "{}, {}".format(config.SEARCH_CITY, config.SEARCH_STATE),
         "home_type": "Apartments",
         "rentMinPrice": "0",
         "rentMaxPrice": str(config.MAX_PRICE),
@@ -246,14 +336,14 @@ def scrape_zillow_api() -> list[Listing]:
 
                 address = prop.get("address", "")
                 desc = prop.get("description", "")
-                combined = f"{address} {desc}"
+                combined = "{} {}".format(address, desc)
                 passes, matched_amenities = _matches_amenities(combined)
 
                 listings.append(Listing(
                     title=prop.get("addressStreet", address),
                     price=float(price),
                     address=address,
-                    url=f"https://www.zillow.com{prop.get('detailUrl', '')}",
+                    url="https://www.zillow.com{}".format(prop.get("detailUrl", "")),
                     source="Zillow",
                     amenities=matched_amenities,
                     lat=prop.get("latitude"),
@@ -264,79 +354,20 @@ def scrape_zillow_api() -> list[Listing]:
                 continue
 
     except Exception as e:
-        print(f"[Zillow API] Error: {e}")
+        print("[Zillow API] Error: {}".format(e))
 
-    print(f"[Zillow API] Found {len(listings)} listings")
+    print("[Zillow API] Found {} listings".format(len(listings)))
     return listings
 
 
-def scrape_rentcom() -> list[Listing]:
-    """Scrape Rent.com for Chicago 1BR listings."""
-    listings = []
-    session = _get_session()
-    url = (
-        f"https://www.rent.com/illinois/{config.SEARCH_CITY.lower()}-apartments"
-        f"/bedrooms-1/price-to-{config.MAX_PRICE}"
-    )
-
-    try:
-        resp = session.get(url, timeout=30)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-
-        cards = soup.select("div[data-tid='property-card'], div.listing-card")
-        for card in cards[:50]:
-            try:
-                title_el = card.select_one("[data-tid='property-title'], .property-name")
-                price_el = card.select_one("[data-tid='price'], .price-range")
-                address_el = card.select_one("[data-tid='property-address'], .property-address")
-                link_el = card.find("a", href=True)
-
-                if not (title_el and price_el):
-                    continue
-
-                title = title_el.get_text(strip=True)
-                price = _extract_price(price_el.get_text(strip=True))
-                if price is None:
-                    continue
-
-                address = address_el.get_text(strip=True) if address_el else ""
-                link = link_el["href"] if link_el else ""
-                if link and not link.startswith("http"):
-                    link = "https://www.rent.com" + link
-
-                card_text = card.get_text(" ", strip=True)
-                passes, matched_amenities = _matches_amenities(card_text)
-
-                listings.append(Listing(
-                    title=title,
-                    price=price,
-                    address=address,
-                    url=link,
-                    source="Rent.com",
-                    amenities=matched_amenities,
-                    description=card_text[:500],
-                ))
-            except Exception:
-                continue
-
-        _random_delay()
-    except Exception as e:
-        print(f"[Rent.com] Error: {e}")
-
-    print(f"[Rent.com] Found {len(listings)} listings")
-    return listings
-
-
-def scrape_all() -> list[Listing]:
+def scrape_all() -> list:
     """Run all scrapers and return combined deduplicated listings."""
     all_listings = []
 
     scrapers = [
-        scrape_apartments_com,
         scrape_craigslist,
+        scrape_padmapper,
         scrape_zillow_api,
-        scrape_rentcom,
     ]
 
     for scraper_fn in scrapers:
@@ -344,7 +375,7 @@ def scrape_all() -> list[Listing]:
             results = scraper_fn()
             all_listings.extend(results)
         except Exception as e:
-            print(f"[{scraper_fn.__name__}] Failed: {e}")
+            print("[{}] Failed: {}".format(scraper_fn.__name__, e))
 
     # Deduplicate by (title, price) tuple
     seen = set()
@@ -355,11 +386,13 @@ def scrape_all() -> list[Listing]:
             seen.add(key)
             unique.append(listing)
 
-    print(f"\n[Total] {len(unique)} unique listings from {len(all_listings)} raw results")
+    print("\n[Total] {} unique listings from {} raw results".format(
+        len(unique), len(all_listings)
+    ))
     return unique
 
 
-def save_listings(listings: list[Listing], path: str = config.LISTINGS_FILE):
+def save_listings(listings: list, path: str = config.LISTINGS_FILE):
     """Save listings to JSON file."""
     import os
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -371,10 +404,10 @@ def save_listings(listings: list[Listing], path: str = config.LISTINGS_FILE):
     }
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
-    print(f"Saved {len(listings)} listings to {path}")
+    print("Saved {} listings to {}".format(len(listings), path))
 
 
-def load_listings(path: str = config.LISTINGS_FILE) -> list[Listing]:
+def load_listings(path: str = config.LISTINGS_FILE) -> list:
     """Load listings from JSON file."""
     try:
         with open(path) as f:
