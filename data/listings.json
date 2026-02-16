@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-02-15T19:30:53.900527",
-  "count": 279,
+  "last_updated": "2026-02-15T19:42:30.147693",
+  "count": 365,
   "listings": [
+    {
+      "title": "Very Nice 1 bedroom Apartment - Available May 1st",
+      "price": 1250.0,
+      "address": "Wicker Park, Chicago, IL",
+      "url": "https://chicago.craigslist.org/chc/apa/d/chicago-very-nice-bedroom-apartment/7915415795.html",
+      "source": "Craigslist",
+      "amenities": [],
+      "lat": 41.9090334459728,
+      "lon": -87.6726565012991,
+      "description": "",
+      "scraped_at": "2026-02-15T19:41:59.351518"
+    },
     {
       "title": "LINCOLN SQUARE  1BDRM+OFFICE\u2014-$1,350",
       "price": 1350.0,
@@ -14,7 +26,7 @@
       "lat": 41.9702998230028,
       "lon": -87.7041966820038,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.190672"
+      "scraped_at": "2026-02-15T19:41:59.351635"
     },
     {
       "title": "Bright sunny 1BR with Free heat, water! Just listed, Available now!",
@@ -26,7 +38,7 @@
       "lat": 42.0107758534799,
       "lon": -87.6629712227307,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.190805"
+      "scraped_at": "2026-02-15T19:41:59.351727"
     },
     {
       "title": "Nice sized east facing top floor 1BR by the Lunt Metra / Morse Redline",
@@ -40,7 +52,7 @@
       "lat": 42.009447164353,
       "lon": -87.6704569163237,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.190883"
+      "scraped_at": "2026-02-15T19:41:59.351816"
     },
     {
       "title": "COME NOW",
@@ -52,7 +64,7 @@
       "lat": 41.7016995004911,
       "lon": -87.777397196948,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.190955"
+      "scraped_at": "2026-02-15T19:41:59.351905"
     },
     {
       "title": "Available now",
@@ -64,7 +76,7 @@
       "lat": 41.7143011342366,
       "lon": -87.7515997722236,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191029"
+      "scraped_at": "2026-02-15T19:41:59.351990"
     },
     {
       "title": "Very beautiful 1 bed apartment",
@@ -76,7 +88,7 @@
       "lat": 41.6445990995893,
       "lon": -87.7414962344648,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191100"
+      "scraped_at": "2026-02-15T19:41:59.352076"
     },
     {
       "title": "$1,450/ 1BR, 1BA apartment available!",
@@ -88,7 +100,7 @@
       "lat": 41.9025000082353,
       "lon": -87.7392989413206,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191172"
+      "scraped_at": "2026-02-15T19:41:59.352165"
     },
     {
       "title": "Spacious Vintage 1-Bedroom in Lakeview!",
@@ -102,7 +114,7 @@
       "lat": 41.9228984516564,
       "lon": -87.6483000654294,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191245"
+      "scraped_at": "2026-02-15T19:41:59.352251"
     },
     {
       "title": "BELMONT GARDENS 1BD WOW! HEAT COOKING GAS WATER TRASH SEWER INC. CATS!",
@@ -114,7 +126,7 @@
       "lat": 41.9332340373222,
       "lon": -87.7405554377652,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191318"
+      "scraped_at": "2026-02-15T19:41:59.352339"
     },
     {
       "title": "BEAUTIFUL AND AMAZING ONE BED ONE BATH",
@@ -126,7 +138,7 @@
       "lat": 41.9398986823948,
       "lon": -87.6528023677833,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191391"
+      "scraped_at": "2026-02-15T19:41:59.352424"
     },
     {
       "title": "Industrial-Style Loft in Wicker Park \u2013 1 Bed, 1 Bath, Hardwood Floors,",
@@ -138,7 +150,7 @@
       "lat": 41.9074314559777,
       "lon": -87.6726565012991,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191466"
+      "scraped_at": "2026-02-15T19:41:59.352513"
     },
     {
       "title": "MELROSE PARK 1 BED WOW! HEAT HOT WATER TRASH SEWER PARKING INC. CATS!",
@@ -152,7 +164,7 @@
       "lat": 41.8970294072077,
       "lon": -87.874864193388,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191538"
+      "scraped_at": "2026-02-15T19:41:59.352604"
     },
     {
       "title": "LAKEVIEW EAST 1 BED TWO BLOCKS FROM THE LAKE GYM CENTER ELEVATOR PETS!",
@@ -164,7 +176,7 @@
       "lat": 41.9366305311316,
       "lon": -87.642057117294,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191609"
+      "scraped_at": "2026-02-15T19:41:59.352690"
     },
     {
       "title": "Charming and spacious 1bedroom/1bathroom",
@@ -178,7 +190,7 @@
       "lat": 41.9908999475679,
       "lon": -87.6629030407531,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191682"
+      "scraped_at": "2026-02-15T19:41:59.352775"
     },
     {
       "title": "Awesome 1 Bedroom, 1 Bath in Rogers Park, Available: Now",
@@ -190,7 +202,7 @@
       "lat": 42.0055097983851,
       "lon": -87.6613663679467,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191751"
+      "scraped_at": "2026-02-15T19:41:59.352859"
     },
     {
       "title": "Delightful 1 Bedroom, 1 Bath in Belmont Cragin, Available: 4/10/2026",
@@ -202,7 +214,7 @@
       "lat": 41.9453016744026,
       "lon": -87.7473976997543,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191821"
+      "scraped_at": "2026-02-15T19:41:59.352944"
     },
     {
       "title": "CHARMING ONE BEDROOM ONE BATHROOM AVAILABLE",
@@ -214,7 +226,7 @@
       "lat": 41.8868009646495,
       "lon": -87.638601035874,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191889"
+      "scraped_at": "2026-02-15T19:41:59.353029"
     },
     {
       "title": "Lovely 1 Bedroom, 1 Bath in Rogers Park, Available: 3/10/2026",
@@ -226,7 +238,7 @@
       "lat": 42.0094987305546,
       "lon": -87.6689024818256,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.191958"
+      "scraped_at": "2026-02-15T19:41:59.353115"
     },
     {
       "title": "Awesome 1 Bedroom, 1 Bath in Portage Park, Available: 4/3/2026",
@@ -238,7 +250,7 @@
       "lat": 41.9453016744026,
       "lon": -87.7473976997543,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192028"
+      "scraped_at": "2026-02-15T19:41:59.353201"
     },
     {
       "title": "Lincoln Park 1 Bedroom",
@@ -250,7 +262,7 @@
       "lat": 41.9216316419715,
       "lon": -87.6596520782237,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192096"
+      "scraped_at": "2026-02-15T19:41:59.353289"
     },
     {
       "title": "Apartment For Rent",
@@ -262,7 +274,7 @@
       "lat": 41.8108903593345,
       "lon": -87.8018155122595,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192165"
+      "scraped_at": "2026-02-15T19:41:59.353375"
     },
     {
       "title": "Albany Park Tree-lined Street, Heat Included",
@@ -274,7 +286,7 @@
       "lat": 41.9611307794079,
       "lon": -87.7046550482399,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192235"
+      "scraped_at": "2026-02-15T19:41:59.353464"
     },
     {
       "title": "Large 1 bed  on the top floor",
@@ -286,7 +298,7 @@
       "lat": 42.0086003327319,
       "lon": -87.6946976147188,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192307"
+      "scraped_at": "2026-02-15T19:41:59.353549"
     },
     {
       "title": "HEAT, WATER AND COOKING GAS INCLUDED!!",
@@ -298,7 +310,7 @@
       "lat": 42.0067697325766,
       "lon": -87.6595901987818,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192376"
+      "scraped_at": "2026-02-15T19:41:59.353636"
     },
     {
       "title": "Top floor 1 bed in Rogers Park Right by the beach",
@@ -312,7 +324,7 @@
       "lat": 42.0079717980307,
       "lon": -87.6599385571213,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192445"
+      "scraped_at": "2026-02-15T19:41:59.353721"
     },
     {
       "title": "Beautiful  One Bedrooms - (Chicago-West Pullman )",
@@ -324,7 +336,7 @@
       "lat": 41.6771585722114,
       "lon": -87.6358622976134,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192515"
+      "scraped_at": "2026-02-15T19:41:59.353807"
     },
     {
       "title": "Beautiful Newly Renovated One   Bedrooms (Chicago-Albany Park)",
@@ -336,7 +348,7 @@
       "lat": 41.9620016752564,
       "lon": -87.7653352894455,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192584"
+      "scraped_at": "2026-02-15T19:41:59.353891"
     },
     {
       "title": "Bright & Inviting 1BR Garden Apt.!!!",
@@ -348,7 +360,7 @@
       "lat": 41.9570324122995,
       "lon": -87.6688795635138,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192653"
+      "scraped_at": "2026-02-15T19:41:59.353976"
     },
     {
       "title": "Hurry - Only 5 Special Weekly Rates Left!",
@@ -360,7 +372,7 @@
       "lat": 41.7446988370978,
       "lon": -87.7698977523679,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192722"
+      "scraped_at": "2026-02-15T19:41:59.354060"
     },
     {
       "title": "Beautiful and amazing 1bed/1bath",
@@ -372,7 +384,7 @@
       "lat": 41.9228984516564,
       "lon": -87.6483000654294,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192790"
+      "scraped_at": "2026-02-15T19:41:59.354143"
     },
     {
       "title": "Ukrainian Village/ Wicker Park",
@@ -384,7 +396,7 @@
       "lat": 41.8988084411614,
       "lon": -87.6838715771804,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192858"
+      "scraped_at": "2026-02-15T19:41:59.354228"
     },
     {
       "title": "1 bedroom cottage includes heat. Logan square. $1200.00 by blue line.",
@@ -396,7 +408,7 @@
       "lat": 41.9209005478249,
       "lon": -87.7043009603225,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192925"
+      "scraped_at": "2026-02-15T19:41:59.354317"
     },
     {
       "title": "One bedroom garden north side Logan square",
@@ -408,7 +420,7 @@
       "lat": 41.9209005478249,
       "lon": -87.7043009603225,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.192994"
+      "scraped_at": "2026-02-15T19:41:59.354405"
     },
     {
       "title": "Small, Cozy Home Quiet and Comfortable",
@@ -420,7 +432,7 @@
       "lat": 41.84899950116,
       "lon": -87.7157005286138,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193061"
+      "scraped_at": "2026-02-15T19:41:59.354492"
     },
     {
       "title": "Weekly and Monthly Rates. No Lease, No Credit Check",
@@ -432,7 +444,7 @@
       "lat": 41.7446988370978,
       "lon": -87.7698977523679,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193129"
+      "scraped_at": "2026-02-15T19:41:59.354578"
     },
     {
       "title": "'' 1 BR -- 1 BA \u2015\u2015 NORTH \u2015 NORTHWEST SUBURBAN LOCATION ''",
@@ -444,7 +456,7 @@
       "lat": 42.0121996536007,
       "lon": -87.8416968125453,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193198"
+      "scraped_at": "2026-02-15T19:41:59.354666"
     },
     {
       "title": "Rogers Park 1 BR in Vintage Midrise Elevator building with Parking!!!",
@@ -459,7 +471,7 @@
       "lat": 42.0054719831706,
       "lon": -87.6640644262038,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193266"
+      "scraped_at": "2026-02-15T19:41:59.354752"
     },
     {
       "title": "Remodeled 1BR/ 1Ba 700ft2",
@@ -471,7 +483,7 @@
       "lat": 41.7750008560073,
       "lon": -87.6420983702552,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193333"
+      "scraped_at": "2026-02-15T19:41:59.354835"
     },
     {
       "title": "1br -Updated Edgewater Apartments!",
@@ -483,7 +495,7 @@
       "lat": 41.9880552121152,
       "lon": -87.6570697574412,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193402"
+      "scraped_at": "2026-02-15T19:41:59.354919"
     },
     {
       "title": "One Parking Spot Included! Updated!",
@@ -497,7 +509,7 @@
       "lat": 41.9469305934141,
       "lon": -87.8699602476198,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193471"
+      "scraped_at": "2026-02-15T19:41:59.355003"
     },
     {
       "title": "Total Rehab! Great Edgewater Location!",
@@ -509,7 +521,7 @@
       "lat": 41.9875326746061,
       "lon": -87.6584563153054,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193541"
+      "scraped_at": "2026-02-15T19:41:59.355089"
     },
     {
       "title": "Beautiful One Bedroom - Apartments @7425 S South Shore - Available Now",
@@ -521,7 +533,7 @@
       "lat": 41.7620204971593,
       "lon": -87.5585101304859,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193610"
+      "scraped_at": "2026-02-15T19:41:59.355172"
     },
     {
       "title": "Oak Park Nice Large 1 bedroom",
@@ -533,7 +545,7 @@
       "lat": 41.8700637215391,
       "lon": -87.7742350428768,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193680"
+      "scraped_at": "2026-02-15T19:41:59.355256"
     },
     {
       "title": "Affordable & Comfortable Senior Living at Hyde Park Apartments",
@@ -545,7 +557,7 @@
       "lat": 41.8021985895829,
       "lon": -87.6005978912406,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193750"
+      "scraped_at": "2026-02-15T19:41:59.355339"
     },
     {
       "title": "Comfortable 1BR with Central Heat and Included Appliances",
@@ -557,7 +569,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193818"
+      "scraped_at": "2026-02-15T19:41:59.355423"
     },
     {
       "title": "Tu Pr\u00f3ximo Hogar: Funcional, Amplio y Bien Cuidado",
@@ -569,7 +581,7 @@
       "lat": 41.883430253941,
       "lon": -87.9031620059302,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193902"
+      "scraped_at": "2026-02-15T19:41:59.355507"
     },
     {
       "title": "SCHILLER PARK 1 BEDROOM-PARKING, GAS HEAT HOT WATER INCLUDED",
@@ -583,7 +595,7 @@
       "lat": 41.9469305934141,
       "lon": -87.8558626210713,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.193972"
+      "scraped_at": "2026-02-15T19:41:59.355591"
     },
     {
       "title": "Act Fast! Limited Availability - No Lease, No Deposit",
@@ -597,7 +609,7 @@
       "lat": 41.7446988370978,
       "lon": -87.7698977523679,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194039"
+      "scraped_at": "2026-02-15T19:41:59.355676"
     },
     {
       "title": "Spacious, Sunny 1 bed apartment in Heart of Forest Park! Heat incl!",
@@ -611,7 +623,7 @@
       "lat": 41.874401012048,
       "lon": -87.8105989552584,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194109"
+      "scraped_at": "2026-02-15T19:41:59.355758"
     },
     {
       "title": "Large 1 Bed + Den in Superb Berwyn Location with Heat & Water Incl!",
@@ -623,7 +635,7 @@
       "lat": 41.8347001934677,
       "lon": -87.791400858418,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194177"
+      "scraped_at": "2026-02-15T19:41:59.355840"
     },
     {
       "title": "Hermosa Sun-filled One Bedroom *Income Guidelines Apply*",
@@ -635,7 +647,7 @@
       "lat": 41.9076296993748,
       "lon": -87.7343743690717,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194247"
+      "scraped_at": "2026-02-15T19:41:59.355925"
     },
     {
       "title": "Spacious, Condo-Quality 1BR w/ Heat Included!",
@@ -649,7 +661,7 @@
       "lat": 41.8347001934677,
       "lon": -87.791400858418,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194315"
+      "scraped_at": "2026-02-15T19:41:59.356010"
     },
     {
       "title": "Condo Quality 1 Bed Apartment with Amazing Layout! Heat. & Water Inc!",
@@ -661,7 +673,7 @@
       "lat": 41.8347001934677,
       "lon": -87.791400858418,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194382"
+      "scraped_at": "2026-02-15T19:41:59.356094"
     },
     {
       "title": "Recently Rehabbed Cozy Pilsen 1 BR Unit!",
@@ -673,7 +685,7 @@
       "lat": 41.85149931602,
       "lon": -87.6693986632762,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194452"
+      "scraped_at": "2026-02-15T19:41:59.356178"
     },
     {
       "title": "Vibrant, Sunny 1-Bed with Great, Spacious Layout in Berwyn IL!",
@@ -687,7 +699,7 @@
       "lat": 41.8347001934677,
       "lon": -87.791400858418,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194520"
+      "scraped_at": "2026-02-15T19:41:59.356263"
     },
     {
       "title": "Condo Quality Top Floor 1 Bed in Superb Berwyn Location -Heat & Water!",
@@ -699,7 +711,7 @@
       "lat": 41.8347001934677,
       "lon": -87.791400858418,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194588"
+      "scraped_at": "2026-02-15T19:41:59.356346"
     },
     {
       "title": "BEAUTIFUL ONE BEDROOM ONE BATHROOM",
@@ -711,7 +723,7 @@
       "lat": 41.8720994405851,
       "lon": -87.6578008515878,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194658"
+      "scraped_at": "2026-02-15T19:41:59.356429"
     },
     {
       "title": "REMODELED 3 ROOM APT",
@@ -723,7 +735,7 @@
       "lat": 41.8079327511962,
       "lon": -87.6416680789511,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194726"
+      "scraped_at": "2026-02-15T19:41:59.356514"
     },
     {
       "title": "1BR/1BA Apartment in Franklin Park, IL \u2013 Coming Soon",
@@ -735,7 +747,7 @@
       "lat": 41.9338986683645,
       "lon": -87.8734025780527,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194795"
+      "scraped_at": "2026-02-15T19:41:59.356597"
     },
     {
       "title": "OHare 1 Bed - Walk to Blue Line 5310 N Chester",
@@ -747,7 +759,7 @@
       "lat": 41.9734997922885,
       "lon": -87.8658005740273,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194866"
+      "scraped_at": "2026-02-15T19:41:59.356679"
     },
     {
       "title": "BEAUTIFUL AND AMAZING ONE BED ONE BATH",
@@ -759,7 +771,7 @@
       "lat": 41.9398986823948,
       "lon": -87.6528023677833,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.194940"
+      "scraped_at": "2026-02-15T19:41:59.356760"
     },
     {
       "title": "GOLF MILL | LUTHERAN GENERAL AREA -- NEAR NORTHWEST SUBURBS",
@@ -771,7 +783,7 @@
       "lat": 42.0121996536007,
       "lon": -87.8416968125453,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195011"
+      "scraped_at": "2026-02-15T19:41:59.356840"
     },
     {
       "title": "2731 W Farragut One Bedroom",
@@ -783,7 +795,7 @@
       "lat": 41.9768298229936,
       "lon": -87.6948889826224,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195079"
+      "scraped_at": "2026-02-15T19:41:59.356922"
     },
     {
       "title": "LOGAN SQUARE - 1 BDRM - HEATED - PALMER n KEDZIE - IN BLDG LNDRY",
@@ -795,7 +807,7 @@
       "lat": 41.920603755687,
       "lon": -87.707162884509,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195147"
+      "scraped_at": "2026-02-15T19:41:59.357004"
     },
     {
       "title": "Spacious 1BR in Lincoln Square | 4835\u00bd N Hoyne | $1500 | 4/1 move in",
@@ -809,7 +821,7 @@
       "lat": 41.9694564291284,
       "lon": -87.6819183640569,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195215"
+      "scraped_at": "2026-02-15T19:41:59.357087"
     },
     {
       "title": "71st and Stoney Ave.",
@@ -821,7 +833,7 @@
       "lat": 41.766917567434,
       "lon": -87.5895478272043,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195284"
+      "scraped_at": "2026-02-15T19:41:59.357169"
     },
     {
       "title": "Large 1Bed/1Bath Apartment W/Heat included Avail May 15th for $1430!!",
@@ -833,7 +845,7 @@
       "lat": 42.011575129604,
       "lon": -87.6631900926085,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195359"
+      "scraped_at": "2026-02-15T19:41:59.357252"
     },
     {
       "title": "HUGE 1 bedroom in Cragin, central heat + AC!",
@@ -847,7 +859,7 @@
       "lat": 41.9453016744026,
       "lon": -87.7473976997543,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195438"
+      "scraped_at": "2026-02-15T19:41:59.357335"
     },
     {
       "title": "Luminous, Comfortable Living in a Prime Location",
@@ -859,7 +871,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195507"
+      "scraped_at": "2026-02-15T19:41:59.357415"
     },
     {
       "title": "Attractive 1 Bedroom, 1 Bath in Uptown, Available: 2/15/2026",
@@ -873,7 +885,7 @@
       "lat": 41.9718983752512,
       "lon": -87.6623976919778,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195577"
+      "scraped_at": "2026-02-15T19:41:59.357497"
     },
     {
       "title": "Manager's Special: No Lease, No Deposit Required",
@@ -885,7 +897,7 @@
       "lat": 41.7446988370978,
       "lon": -87.7698977523679,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195647"
+      "scraped_at": "2026-02-15T19:41:59.357580"
     },
     {
       "title": "Rehabbed 1-Bedroom in Belmont Gardens | Heat/Gas Included!",
@@ -897,7 +909,7 @@
       "lat": 41.9331767415427,
       "lon": -87.7412452789505,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195718"
+      "scraped_at": "2026-02-15T19:41:59.357660"
     },
     {
       "title": "Apartment available Now in convenient and desirable Edison Park!",
@@ -909,7 +921,7 @@
       "lat": 41.9898308083222,
       "lon": -87.8100592290154,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195788"
+      "scraped_at": "2026-02-15T19:41:59.357741"
     },
     {
       "title": "SPACIOUS APARTMENT FOR RENT",
@@ -923,7 +935,7 @@
       "lat": 41.6617460075232,
       "lon": -87.6706213552109,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195863"
+      "scraped_at": "2026-02-15T19:41:59.357823"
     },
     {
       "title": "Tour Today, Check In Today - No Lease Needed!",
@@ -935,7 +947,7 @@
       "lat": 41.7446988370978,
       "lon": -87.7698977523679,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.195939"
+      "scraped_at": "2026-02-15T19:41:59.357903"
     },
     {
       "title": "$1,250/1 br -(Laundry Available)(Off Street Parking Available)(Pet Fri",
@@ -949,7 +961,7 @@
       "lat": 41.8812719219268,
       "lon": -87.7664622974285,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196012"
+      "scraped_at": "2026-02-15T19:41:59.357983"
     },
     {
       "title": "Sub Lease in Edgewater",
@@ -961,7 +973,7 @@
       "lat": 41.9937515585141,
       "lon": -87.6586545587025,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196080"
+      "scraped_at": "2026-02-15T19:41:59.358064"
     },
     {
       "title": "Large 1BR Lincoln Square English Garden Cats Ok Heat included $1350",
@@ -973,7 +985,7 @@
       "lat": 41.963199730006,
       "lon": -87.6874027160716,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196149"
+      "scraped_at": "2026-02-15T19:41:59.358143"
     },
     {
       "title": "Acogedor Departamento de 1 Dormitorio con Excelente Ubicaci\u00f3n",
@@ -987,7 +999,7 @@
       "lat": 41.883430253941,
       "lon": -87.9031620059302,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196218"
+      "scraped_at": "2026-02-15T19:41:59.358224"
     },
     {
       "title": "Espacio Luminoso y Bien Ubicado con Comodidades Incluidas",
@@ -1001,7 +1013,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196288"
+      "scraped_at": "2026-02-15T19:41:59.358303"
     },
     {
       "title": "Great Deal! Spacious and bright 1 bedroom apartment in Cragin!",
@@ -1015,7 +1027,7 @@
       "lat": 41.9368322122755,
       "lon": -87.7468596923847,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196362"
+      "scraped_at": "2026-02-15T19:41:59.358382"
     },
     {
       "title": "Gorgeous 1BR/1BA Renovated Garden Apartment Available for Rent!",
@@ -1027,7 +1039,7 @@
       "lat": 41.8156270014266,
       "lon": -87.6045524459423,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196438"
+      "scraped_at": "2026-02-15T19:41:59.358462"
     },
     {
       "title": "\ud83c\udfe1MINUTES FROM HYDE PARK & LOOP: 1BR/1BA Apt w/ Heat & Water Included",
@@ -1039,7 +1051,7 @@
       "lat": 41.8160332285033,
       "lon": -87.6048119958235,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196509"
+      "scraped_at": "2026-02-15T19:41:59.358544"
     },
     {
       "title": "Inside, the thoughtful layout welcomes you into an open-concept living",
@@ -1051,7 +1063,7 @@
       "lat": 41.9207882480971,
       "lon": -87.6402545920706,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196640"
+      "scraped_at": "2026-02-15T19:41:59.358742"
     },
     {
       "title": "large open living area is flanked by windows both north and south",
@@ -1063,7 +1075,7 @@
       "lat": 42.0165300686161,
       "lon": -87.681993421528,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196704"
+      "scraped_at": "2026-02-15T19:41:59.358818"
     },
     {
       "title": "incredible functionality and design, and warmly welcomes you home",
@@ -1075,7 +1087,7 @@
       "lat": 41.9887759930214,
       "lon": -87.6570995512465,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196768"
+      "scraped_at": "2026-02-15T19:41:59.358894"
     },
     {
       "title": "Spacious 1 bedroom close to bus, Metra, El, 3rd Flr unit",
@@ -1089,7 +1101,7 @@
       "lat": 42.0288314724769,
       "lon": -87.6808119825546,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196841"
+      "scraped_at": "2026-02-15T19:41:59.358975"
     },
     {
       "title": "Welcome Home to Elmwood Tower Apartments!",
@@ -1101,7 +1113,7 @@
       "lat": 41.9091325676713,
       "lon": -87.7850610804152,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196920"
+      "scraped_at": "2026-02-15T19:41:59.359055"
     },
     {
       "title": "Rogers Park 1-Bedroom | Cat Friendly / Laundry On-site!",
@@ -1113,7 +1125,7 @@
       "lat": 42.0151297597648,
       "lon": -87.6807569786062,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.196992"
+      "scraped_at": "2026-02-15T19:41:59.359136"
     },
     {
       "title": "1 BD Across from Park and North Ave Bus Stop, incl. heat and gas!",
@@ -1127,7 +1139,7 @@
       "lat": 41.9095760370048,
       "lon": -87.7071147560542,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197063"
+      "scraped_at": "2026-02-15T19:41:59.359215"
     },
     {
       "title": "1-bed, 1-bath concrete loft with a massive 39-foot by 9-foot terrace!",
@@ -1141,7 +1153,7 @@
       "lat": 41.8818322746504,
       "lon": -87.6501850965753,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197129"
+      "scraped_at": "2026-02-15T19:41:59.359292"
     },
     {
       "title": "IN-UNIT washer/dryer. Central heat/air. Huge Storage unit included",
@@ -1155,7 +1167,7 @@
       "lat": 41.9096751587033,
       "lon": -87.6377267022786,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197195"
+      "scraped_at": "2026-02-15T19:41:59.359372"
     },
     {
       "title": "Bucktown one bedroom plus den",
@@ -1167,7 +1179,7 @@
       "lat": 41.9209005478249,
       "lon": -87.7043009603225,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197264"
+      "scraped_at": "2026-02-15T19:41:59.359453"
     },
     {
       "title": "ONE BEDROOM ONE BATHROOM AVAILABLE",
@@ -1179,7 +1191,7 @@
       "lat": 41.9209005478249,
       "lon": -87.7043009603225,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197341"
+      "scraped_at": "2026-02-15T19:41:59.359534"
     },
     {
       "title": "BELMONT GARDENS 1 BED WOW! HEAT COOKING GAS WATER INC SS APPL D/W PETS",
@@ -1191,7 +1203,7 @@
       "lat": 41.9332340373222,
       "lon": -87.7405554377652,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197421"
+      "scraped_at": "2026-02-15T19:41:59.359615"
     },
     {
       "title": "ROGERS PARK 1 BED WOW HEAT COOKING GAS WATER TRASH SEWER INC DINING RM",
@@ -1203,7 +1215,7 @@
       "lat": 42.0079517445078,
       "lon": -87.6620269882844,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197495"
+      "scraped_at": "2026-02-15T19:41:59.359694"
     },
     {
       "title": "ROGERS PARK 1 BED WOW! HEAT WATER TRASH SEWER INC. DINING RM PETS OKAY",
@@ -1215,7 +1227,7 @@
       "lat": 42.0115373143896,
       "lon": -87.6662095801886,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197563"
+      "scraped_at": "2026-02-15T19:41:59.359774"
     },
     {
       "title": "ROGERS PARK 1 BED WOW! HEAT HOT WATER TRASH SEWER INC. DOG-CATS OKAY!",
@@ -1227,7 +1239,7 @@
       "lat": 42.0066299308745,
       "lon": -87.6763583816133,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197631"
+      "scraped_at": "2026-02-15T19:41:59.359854"
     },
     {
       "title": "SCHILLER PARK 1BD WOW! HEAT COOKING GAS PARKING WATER TRASH SEWER INC.",
@@ -1241,7 +1253,7 @@
       "lat": 41.9476307478397,
       "lon": -87.8664629132385,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197699"
+      "scraped_at": "2026-02-15T19:41:59.359934"
     },
     {
       "title": "Great 1-Bedroom Garden Unit in Humboldt Park! Pets OK",
@@ -1253,7 +1265,7 @@
       "lat": 41.9095422324949,
       "lon": -87.7071187667588,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197767"
+      "scraped_at": "2026-02-15T19:41:59.360013"
     },
     {
       "title": "Bucktown one bedroom plus den",
@@ -1265,7 +1277,7 @@
       "lat": 41.9209005478249,
       "lon": -87.7043009603225,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197844"
+      "scraped_at": "2026-02-15T19:41:59.360092"
     },
     {
       "title": "1 bedroom in the heart of Uptown HEAT + GAS INCLUDED",
@@ -1277,7 +1289,7 @@
       "lat": 41.9718983752512,
       "lon": -87.6623976919778,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197918"
+      "scraped_at": "2026-02-15T19:41:59.360175"
     },
     {
       "title": "Beautiful and affordable 1bed/1bath",
@@ -1289,7 +1301,7 @@
       "lat": 41.8021985895829,
       "lon": -87.6005978912406,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.197991"
+      "scraped_at": "2026-02-15T19:41:59.360254"
     },
     {
       "title": "Northwest side! Just one mile to the Blue Line Train!",
@@ -1301,7 +1313,7 @@
       "lat": 41.9398305004172,
       "lon": -87.7270576980283,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198073"
+      "scraped_at": "2026-02-15T19:41:59.360335"
     },
     {
       "title": "Glam 9' ceilings add great wow factor from the moment you walk in.",
@@ -1315,7 +1327,7 @@
       "lat": 41.8802405978956,
       "lon": -87.6484478885405,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198177"
+      "scraped_at": "2026-02-15T19:41:59.360410"
     },
     {
       "title": "Perched on 17th flr, home offers sweeping city and Chicago River views",
@@ -1327,7 +1339,7 @@
       "lat": 41.8900387491496,
       "lon": -87.6410807972111,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198257"
+      "scraped_at": "2026-02-15T19:41:59.360485"
     },
     {
       "title": "1 BEDROOM., 1 BATH., APARTMENT FOR RENT!!!",
@@ -1339,7 +1351,7 @@
       "lat": 41.7257007025279,
       "lon": -87.5559971375966,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198327"
+      "scraped_at": "2026-02-15T19:41:59.360565"
     },
     {
       "title": "BEAUTIFUL AND SPACIOUS ONE BEDROOM",
@@ -1353,7 +1365,7 @@
       "lat": 41.8713001644609,
       "lon": -87.6276999408644,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198408"
+      "scraped_at": "2026-02-15T19:41:59.360645"
     },
     {
       "title": "BIG Lincoln Square Studio! No Sec Dep, Pets Ok! Marianos, B-Line!",
@@ -1365,7 +1377,7 @@
       "lat": 41.9649317814206,
       "lon": -87.6862556545658,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198485"
+      "scraped_at": "2026-02-15T19:41:59.360725"
     },
     {
       "title": "NORTH BURBS \u2015 HEAT INCLUDED \u2015 1 BR 1 BA \u2015 WONDERFUL LOCATION",
@@ -1377,7 +1389,7 @@
       "lat": 42.0121996536007,
       "lon": -87.8416968125453,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198554"
+      "scraped_at": "2026-02-15T19:41:59.360805"
     },
     {
       "title": "All-Inclusive Affordable Living - No Hidden Fees",
@@ -1389,7 +1401,7 @@
       "lat": 41.7446988370978,
       "lon": -87.7698977523679,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198626"
+      "scraped_at": "2026-02-15T19:41:59.360885"
     },
     {
       "title": "\ud83d\udc25\ud83c\udfe1\ud83d\udc95Renovated 1BD In Edgewater! Heat, Gas & Water Included\ud83d\udc95\ud83d\udc25\ud83c\udfe1",
@@ -1401,7 +1413,7 @@
       "lat": 41.9972998861391,
       "lon": -87.6620968891354,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198695"
+      "scraped_at": "2026-02-15T19:41:59.360965"
     },
     {
       "title": "Bright 1\u2011Bedroom Apartment Near 82nd & Racine \u2014 Great Light, Great Loc",
@@ -1415,7 +1427,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198769"
+      "scraped_at": "2026-02-15T19:41:59.361043"
     },
     {
       "title": "Avondale 3th floor sunny 1 bed",
@@ -1427,7 +1439,7 @@
       "lat": 41.9398305004172,
       "lon": -87.7270576980283,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198849"
+      "scraped_at": "2026-02-15T19:41:59.361121"
     },
     {
       "title": "\u2605Recently Rehabbed 1BD in Chicago \u2013 Heat, Gas & Water Included\u2605",
@@ -1439,7 +1451,7 @@
       "lat": 41.9331767415427,
       "lon": -87.7412452789505,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198928"
+      "scraped_at": "2026-02-15T19:41:59.361201"
     },
     {
       "title": "Beautiful  One Bedrooms(Chicago-West Pullman )",
@@ -1451,7 +1463,7 @@
       "lat": 41.6771585722114,
       "lon": -87.6358622976134,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.198999"
+      "scraped_at": "2026-02-15T19:41:59.361282"
     },
     {
       "title": "Studio Near UIC Halsted Blue Line",
@@ -1463,7 +1475,7 @@
       "lat": 41.8780312726377,
       "lon": -87.6462511683541,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199067"
+      "scraped_at": "2026-02-15T19:41:59.361364"
     },
     {
       "title": "Stylish Studio in the Heart of the West Loop",
@@ -1475,7 +1487,7 @@
       "lat": 41.8780312726377,
       "lon": -87.6462511683541,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199138"
+      "scraped_at": "2026-02-15T19:41:59.361448"
     },
     {
       "title": "Cozy Studio Oasis in the Heart of West Loop",
@@ -1487,7 +1499,7 @@
       "lat": 41.8813985455995,
       "lon": -87.6429996328669,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199216"
+      "scraped_at": "2026-02-15T19:41:59.361526"
     },
     {
       "title": "Renovated, Spacious Condo Quality 1-Bed in Superb Location!",
@@ -1501,7 +1513,7 @@
       "lat": 41.8523323966541,
       "lon": -87.794552126291,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199291"
+      "scraped_at": "2026-02-15T19:41:59.361607"
     },
     {
       "title": "Renovated, Sunny 1 Bed in Superb Berwyn Location! Heat Included!",
@@ -1513,7 +1525,7 @@
       "lat": 41.8523323966541,
       "lon": -87.794552126291,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199367"
+      "scraped_at": "2026-02-15T19:41:59.361689"
     },
     {
       "title": "1 and 2 Bedroom Apartments Available!",
@@ -1525,7 +1537,7 @@
       "lat": 41.8824092431501,
       "lon": -87.7613263037532,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199436"
+      "scraped_at": "2026-02-15T19:41:59.361767"
     },
     {
       "title": "1-Bed in Edgewater // FREE HEAT //",
@@ -1537,7 +1549,7 @@
       "lat": 41.9910294360296,
       "lon": -87.6720537496987,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199504"
+      "scraped_at": "2026-02-15T19:41:59.361849"
     },
     {
       "title": "1 Bedroom with Heat Included!",
@@ -1549,7 +1561,7 @@
       "lat": 41.8784099977403,
       "lon": -87.7679852192479,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199572"
+      "scraped_at": "2026-02-15T19:41:59.361929"
     },
     {
       "title": "1 Bedroom Apartment Available in Maywood!",
@@ -1561,7 +1573,7 @@
       "lat": 41.8673691010287,
       "lon": -87.8384865300193,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199642"
+      "scraped_at": "2026-02-15T19:41:59.362007"
     },
     {
       "title": "Cozy, Move\u2011In\u2011Ready 1BR with Great Essentials",
@@ -1573,7 +1585,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199710"
+      "scraped_at": "2026-02-15T19:41:59.362087"
     },
     {
       "title": "Move\u2011In\u2011Ready 1\u2011Bedroom with Bright, Flexible Living Space",
@@ -1587,7 +1599,7 @@
       "lat": 41.883430253941,
       "lon": -87.9031620059302,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199778"
+      "scraped_at": "2026-02-15T19:41:59.362168"
     },
     {
       "title": "- Cozy, Sun\u2011Filled Apartment Near 82nd & Racine",
@@ -1601,7 +1613,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199852"
+      "scraped_at": "2026-02-15T19:41:59.362249"
     },
     {
       "title": "Condo for Rent",
@@ -1613,7 +1625,7 @@
       "lat": 41.9703307627238,
       "lon": -87.7086583043542,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.199933"
+      "scraped_at": "2026-02-15T19:41:59.362328"
     },
     {
       "title": "1 Bedroom Apartments with Heat Included in Berwyn!",
@@ -1625,7 +1637,7 @@
       "lat": 41.8329211595139,
       "lon": -87.7964193957453,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200010"
+      "scraped_at": "2026-02-15T19:41:59.362407"
     },
     {
       "title": "Flexible Living: No Lease, Pay Your Way - Weekly Rates Available!",
@@ -1637,7 +1649,7 @@
       "lat": 41.7446988370978,
       "lon": -87.7698977523679,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200092"
+      "scraped_at": "2026-02-15T19:41:59.362488"
     },
     {
       "title": "Central Street 1 Bed 1 Bath unit Available Now",
@@ -1649,7 +1661,7 @@
       "lat": 42.0639658174302,
       "lon": -87.6926143401758,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200167"
+      "scraped_at": "2026-02-15T19:41:59.362568"
     },
     {
       "title": "Beautiful  One Bedrooms  (Chicago-West Pullman )",
@@ -1661,7 +1673,7 @@
       "lat": 41.6771585722114,
       "lon": -87.6358622976134,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200244"
+      "scraped_at": "2026-02-15T19:41:59.362647"
     },
     {
       "title": "BEAUTIFUL APARTMENT IN WELL KEPT BUILDING",
@@ -1673,7 +1685,7 @@
       "lat": 41.9213995940644,
       "lon": -87.8923972748759,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200321"
+      "scraped_at": "2026-02-15T19:41:59.362724"
     },
     {
       "title": "Bright & Updated 1BR/1BA Second Floor Apartment $1,350 Heat included!",
@@ -1685,7 +1697,7 @@
       "lat": 41.9476307478397,
       "lon": -87.7579315288172,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200394"
+      "scraped_at": "2026-02-15T19:41:59.362801"
     },
     {
       "title": "1 Bedroom Apartment Available!",
@@ -1697,7 +1709,7 @@
       "lat": 41.9094018578351,
       "lon": -87.7738322535468,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200465"
+      "scraped_at": "2026-02-15T19:41:59.362879"
     },
     {
       "title": "Studio, 1 and 2 Bedroom Apartments with Heat Included!",
@@ -1709,7 +1721,7 @@
       "lat": 41.8898576944864,
       "lon": -87.7633683253349,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200536"
+      "scraped_at": "2026-02-15T19:41:59.362958"
     },
     {
       "title": "Affordable Living: Clean, Safe, With a Kitchen",
@@ -1721,7 +1733,7 @@
       "lat": 41.7446988370978,
       "lon": -87.7698977523679,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200606"
+      "scraped_at": "2026-02-15T19:41:59.363039"
     },
     {
       "title": "One-Bedroom Apartment for Rent in a Quiet Neighborhood",
@@ -1733,7 +1745,7 @@
       "lat": 41.960112633406,
       "lon": -87.7903953174876,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200675"
+      "scraped_at": "2026-02-15T19:41:59.363119"
     },
     {
       "title": "New ARO Apartments For Rent - The Mabel Exchange",
@@ -1745,7 +1757,7 @@
       "lat": 41.9890727851593,
       "lon": -87.6695281517379,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200749"
+      "scraped_at": "2026-02-15T19:41:59.363198"
     },
     {
       "title": "Charming 1-Bedroom - Near Lake Michigan | $1,395/mo | 1145 W Morse",
@@ -1757,7 +1769,7 @@
       "lat": 42.0079614847904,
       "lon": -87.6608610191714,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200818"
+      "scraped_at": "2026-02-15T19:41:59.363277"
     },
     {
       "title": "Spacious Irving Park 1-Bed Garden w/ FREE HEAT",
@@ -1771,7 +1783,7 @@
       "lat": 41.9504227711752,
       "lon": -87.7202561160426,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.200966"
+      "scraped_at": "2026-02-15T19:41:59.363432"
     },
     {
       "title": "1-Bed in Edgewater // FREE HEAT // On-Site Laundry",
@@ -1783,7 +1795,7 @@
       "lat": 41.9898204950819,
       "lon": -87.6716595547356,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201035"
+      "scraped_at": "2026-02-15T19:41:59.363512"
     },
     {
       "title": "- Listo para mudanza \u2013 Dise\u00f1o limpio, pr\u00e1ctico y f\u00e1cil de amueblar",
@@ -1795,7 +1807,7 @@
       "lat": 41.883430253941,
       "lon": -87.9031620059302,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201113"
+      "scraped_at": "2026-02-15T19:41:59.363591"
     },
     {
       "title": "LOGAN SQUARE - 1 BDRM - HEATED - SAWYER n BELDEN - IN UNIT LAUNDRY",
@@ -1809,7 +1821,7 @@
       "lat": 41.920603755687,
       "lon": -87.707162884509,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201192"
+      "scraped_at": "2026-02-15T19:41:59.363669"
     },
     {
       "title": "ONE BEDROOM ONE BATHROOM AVAILABLE",
@@ -1821,7 +1833,7 @@
       "lat": 41.9209005478249,
       "lon": -87.7043009603225,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201268"
+      "scraped_at": "2026-02-15T19:41:59.363749"
     },
     {
       "title": "\ud83c\udfe1\ud83c\udf0a\u2728Renovated Edgewater 1BD \u2014 Prime Location & Value\u2728\ud83c\udf0a\ud83c\udfe1",
@@ -1833,7 +1845,7 @@
       "lat": 41.9910294360296,
       "lon": -87.672458257902,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201344"
+      "scraped_at": "2026-02-15T19:41:59.363828"
     },
     {
       "title": "Sunny 1-Bedroom | Tons of Space | Separate Living Room",
@@ -1847,7 +1859,7 @@
       "lat": 41.9398305004172,
       "lon": -87.7277217561128,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201422"
+      "scraped_at": "2026-02-15T19:41:59.363907"
     },
     {
       "title": "ONE BEDROOM ONE BATHROOM AVAILABLE NOW GREAT LOCATION",
@@ -1859,7 +1871,7 @@
       "lat": 41.9543005495325,
       "lon": -87.6575006217031,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201491"
+      "scraped_at": "2026-02-15T19:41:59.363985"
     },
     {
       "title": "Spacious 1BD in Beautiful Vintage Oak Park Building!",
@@ -1873,7 +1885,7 @@
       "lat": 41.8724987921682,
       "lon": -87.7876972592305,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201560"
+      "scraped_at": "2026-02-15T19:41:59.364061"
     },
     {
       "title": "Exclusive Offer: Short-Term Stays with No Strings Attached!",
@@ -1887,7 +1899,7 @@
       "lat": 41.7446988370978,
       "lon": -87.7698977523679,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201630"
+      "scraped_at": "2026-02-15T19:41:59.364140"
     },
     {
       "title": "Spacious 1BD Close to the Blue Line!",
@@ -1901,7 +1913,7 @@
       "lat": 41.8724987921682,
       "lon": -87.7876972592305,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201699"
+      "scraped_at": "2026-02-15T19:41:59.364220"
     },
     {
       "title": "Large 1bd Unit w/ Separate dinning!",
@@ -1913,7 +1925,7 @@
       "lat": 41.8818219614101,
       "lon": -87.7867209391476,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201772"
+      "scraped_at": "2026-02-15T19:41:59.364298"
     },
     {
       "title": "- Bright and Comfortable 1\u2011Bedroom Home in Quiet Residential Area",
@@ -1925,7 +1937,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201923"
+      "scraped_at": "2026-02-15T19:41:59.364463"
     },
     {
       "title": "- 1 Dormitorio con Cocina Completa y Excelente Distribuci\u00f3n",
@@ -1937,7 +1949,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.201996"
+      "scraped_at": "2026-02-15T19:41:59.364543"
     },
     {
       "title": "Luminoso y Bien Distribuido Departamento de 1 Dormitorio",
@@ -1949,7 +1961,7 @@
       "lat": 41.883430253941,
       "lon": -87.9031620059302,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202073"
+      "scraped_at": "2026-02-15T19:41:59.364622"
     },
     {
       "title": "one bedroom apartment 2nd floor",
@@ -1961,7 +1973,7 @@
       "lat": 41.9231992544989,
       "lon": -87.8185017621262,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202145"
+      "scraped_at": "2026-02-15T19:41:59.364705"
     },
     {
       "title": "\ud83d\udd25 HALF MONTH FREE! 1bed+ Den available right away!",
@@ -1973,7 +1985,7 @@
       "lat": 41.8456322281982,
       "lon": -87.6978053377994,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202218"
+      "scraped_at": "2026-02-15T19:41:59.364783"
     },
     {
       "title": "Apartamento Luminoso y Bien Mantenido",
@@ -1985,7 +1997,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202295"
+      "scraped_at": "2026-02-15T19:41:59.364862"
     },
     {
       "title": "Convenient, Budget\u2011Friendly Home Near 82nd & Racine",
@@ -1999,7 +2011,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202377"
+      "scraped_at": "2026-02-15T19:41:59.364940"
     },
     {
       "title": "Newly remodeled 1BR in Riverdale",
@@ -2011,7 +2023,7 @@
       "lat": 41.6412352643742,
       "lon": -87.6184821958568,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202449"
+      "scraped_at": "2026-02-15T19:41:59.365017"
     },
     {
       "title": "Apartment For Rent",
@@ -2023,7 +2035,7 @@
       "lat": 41.8108903593345,
       "lon": -87.8018155122595,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202519"
+      "scraped_at": "2026-02-15T19:41:59.365094"
     },
     {
       "title": "1 Bedroom Apartment",
@@ -2035,7 +2047,7 @@
       "lat": 41.826531534183,
       "lon": -87.6399606647217,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202586"
+      "scraped_at": "2026-02-15T19:41:59.365172"
     },
     {
       "title": "Huge 1 Bedroom Apartment for Rent",
@@ -2047,7 +2059,7 @@
       "lat": 42.0054313031672,
       "lon": -87.6733600934715,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202655"
+      "scraped_at": "2026-02-15T19:41:59.365250"
     },
     {
       "title": "One Bedroom Apt for Rent",
@@ -2059,7 +2071,7 @@
       "lat": 41.9378704118002,
       "lon": -87.8104419648225,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202737"
+      "scraped_at": "2026-02-15T19:41:59.365329"
     },
     {
       "title": "*Hot special!! Half Off Rent!** Large modern 1 bedroom 1 bath",
@@ -2071,7 +2083,7 @@
       "lat": 41.8553306847959,
       "lon": -87.7012001127354,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202812"
+      "scraped_at": "2026-02-15T19:41:59.365408"
     },
     {
       "title": "Beautiful Wicker Park 1 bedroom + office/den",
@@ -2083,7 +2095,7 @@
       "lat": 41.8889317946895,
       "lon": -87.6707508436726,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202886"
+      "scraped_at": "2026-02-15T19:41:59.365489"
     },
     {
       "title": "One bedroom",
@@ -2095,7 +2107,7 @@
       "lat": 41.9718983752512,
       "lon": -87.6623976919778,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.202961"
+      "scraped_at": "2026-02-15T19:41:59.365568"
     },
     {
       "title": "One Bedroom Apartment in Franklin Park for Rent",
@@ -2107,7 +2119,7 @@
       "lat": 41.9348205574569,
       "lon": -87.8679113505445,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.203101"
+      "scraped_at": "2026-02-15T19:41:59.365728"
     },
     {
       "title": "Updated 1BR/1BA Apartment \u2013 Top-Floor Unit Near Montrose & Cicero",
@@ -2119,7 +2131,7 @@
       "lat": 41.9605194334405,
       "lon": -87.7473444146794,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.203189"
+      "scraped_at": "2026-02-15T19:41:59.365807"
     },
     {
       "title": "Inviting Apartment Near 82nd & Racine \u2014Water Included",
@@ -2133,7 +2145,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.203323"
+      "scraped_at": "2026-02-15T19:41:59.365886"
     },
     {
       "title": "No Deposit, No Hassle - Check In Today!",
@@ -2145,7 +2157,7 @@
       "lat": 41.7446988370978,
       "lon": -87.7698977523679,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.203549"
+      "scraped_at": "2026-02-15T19:41:59.366051"
     },
     {
       "title": "$1,250 /1 br -(Heat Included)(Laundry Available)(No Security Deposit)",
@@ -2157,7 +2169,7 @@
       "lat": 41.892828480654,
       "lon": -87.7724456956827,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.203630"
+      "scraped_at": "2026-02-15T19:41:59.366129"
     },
     {
       "title": "Second Chance Apartments and Houses",
@@ -2169,7 +2181,7 @@
       "lat": 41.6995990372143,
       "lon": -87.6628004813078,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.203709"
+      "scraped_at": "2026-02-15T19:41:59.366207"
     },
     {
       "title": "\u2605 Hot Deal! Renovated 1BD w/ Heated Floors & FREE Parking! \u2605",
@@ -2183,7 +2195,7 @@
       "lat": 41.9477636740482,
       "lon": -87.8666955341033,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.203857"
+      "scraped_at": "2026-02-15T19:41:59.366363"
     },
     {
       "title": "^^NW BURBS -- FANTASTIC LOCATION -- LOCATION -- LOCATION \u2014 1 BR - 1 BA",
@@ -2195,7 +2207,7 @@
       "lat": 42.0121996536007,
       "lon": -87.8416968125453,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.203948"
+      "scraped_at": "2026-02-15T19:41:59.366443"
     },
     {
       "title": "$1,200--\u00bb FURNISHED One Bedroom (4 room) Apt-10 min.to DowntownChicago",
@@ -2207,7 +2219,7 @@
       "lat": 41.85149931602,
       "lon": -87.6693986632762,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204031"
+      "scraped_at": "2026-02-15T19:41:59.366525"
     },
     {
       "title": "LARGE 1 BEDROOM 1BATH NEWLY RENOVATED SECTION 8 WELCOME",
@@ -2219,7 +2231,7 @@
       "lat": 41.7819983895588,
       "lon": -87.6142996039526,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204198"
+      "scraped_at": "2026-02-15T19:41:59.366681"
     },
     {
       "title": "WEST RIDGE 1BD WOW! HEAT HOT WATER TRASH SEWER INC. A/C D/W DOG-CATS!",
@@ -2233,7 +2245,7 @@
       "lat": 42.0151297597648,
       "lon": -87.6843568724329,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204305"
+      "scraped_at": "2026-02-15T19:41:59.366760"
     },
     {
       "title": "ROGERS PARK 1BD WOW HEAT COOKING GAS HOT WATER TRASH SEWER INC D/W CAT",
@@ -2245,7 +2257,7 @@
       "lat": 42.0079517445078,
       "lon": -87.6620269882844,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204409"
+      "scraped_at": "2026-02-15T19:41:59.366841"
     },
     {
       "title": "EDGEWATER 1 BED WOW! HEAT COOKING GAS WATER TRASH SEWER INC. DOG-CATS!",
@@ -2257,7 +2269,7 @@
       "lat": 41.9858315629124,
       "lon": -87.6569540199666,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204503"
+      "scraped_at": "2026-02-15T19:41:59.366920"
     },
     {
       "title": "Affordable 1 & 2 Bedroom - 7425-31 S. Coles Ave.",
@@ -2269,7 +2281,7 @@
       "lat": 41.7610539173589,
       "lon": -87.5601086827342,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204577"
+      "scraped_at": "2026-02-15T19:41:59.366999"
     },
     {
       "title": "7520 S. Coles Ave. - 1 Bedroom Apartment",
@@ -2281,7 +2293,7 @@
       "lat": 41.7594353115878,
       "lon": -87.5585445079536,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204654"
+      "scraped_at": "2026-02-15T19:41:59.367077"
     },
     {
       "title": "IRVING PARK 1 BED UPDATED WOW! HOT WATER, TRASH, SEWER INC. CATS OKAY!",
@@ -2293,7 +2305,7 @@
       "lat": 41.9539315647124,
       "lon": -87.7141569803138,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204728"
+      "scraped_at": "2026-02-15T19:41:59.367155"
     },
     {
       "title": "COUNTRY CLUB APARTMENTS - 1 BD with All Utilities Included!",
@@ -2305,7 +2317,7 @@
       "lat": 41.7703667733605,
       "lon": -87.5671096540326,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204829"
+      "scraped_at": "2026-02-15T19:41:59.367233"
     },
     {
       "title": "City Address-Suburban Setting***8202-30 S. Commercial Ave.***",
@@ -2317,7 +2329,7 @@
       "lat": 41.7461982676476,
       "lon": -87.5518918949947,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204915"
+      "scraped_at": "2026-02-15T19:41:59.367313"
     },
     {
       "title": "Modern Apartment -- 7616 S. South Shore Dr.--",
@@ -2329,7 +2341,7 @@
       "lat": 41.7584274788262,
       "lon": -87.555436784873,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.204986"
+      "scraped_at": "2026-02-15T19:41:59.367391"
     },
     {
       "title": "Modern 1 Bedroom Apartment-7741-51 S South Shore Dr",
@@ -2341,7 +2353,7 @@
       "lat": 41.7560439743986,
       "lon": -87.5520190916252,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205059"
+      "scraped_at": "2026-02-15T19:41:59.367469"
     },
     {
       "title": "Great Location 6820 S. Oglesby Ave.- 1 Bedroom",
@@ -2353,7 +2365,7 @@
       "lat": 41.7712783492125,
       "lon": -87.5685030873902,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205132"
+      "scraped_at": "2026-02-15T19:41:59.367548"
     },
     {
       "title": "$1,400/1br-(Heat Included)(No Security Deposit/No move in Fee)(Laundry",
@@ -2365,7 +2377,7 @@
       "lat": 41.6975432646455,
       "lon": -87.7791120596287,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205209"
+      "scraped_at": "2026-02-15T19:41:59.367626"
     },
     {
       "title": "$1,200/1br-(No security deposit/no move in fee)(Laundry Available)",
@@ -2377,7 +2389,7 @@
       "lat": 41.6773510860306,
       "lon": -87.6738929442209,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205279"
+      "scraped_at": "2026-02-15T19:41:59.367703"
     },
     {
       "title": "For rent end of Feb",
@@ -2389,7 +2401,7 @@
       "lat": 41.9007994694994,
       "lon": -87.6528023677833,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205349"
+      "scraped_at": "2026-02-15T19:41:59.367784"
     },
     {
       "title": "1 BED 1 BATH",
@@ -2401,7 +2413,7 @@
       "lat": 41.931531779713,
       "lon": -87.7404597538134,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205416"
+      "scraped_at": "2026-02-15T19:41:59.367863"
     },
     {
       "title": "SCHILLER PARK 1BEDROOM GAS HEAT HOT WATER INCLUDED",
@@ -2413,7 +2425,7 @@
       "lat": 41.9469305934141,
       "lon": -87.8558626210713,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205487"
+      "scraped_at": "2026-02-15T19:41:59.367946"
     },
     {
       "title": "Uptown 1br with utilities included available now.",
@@ -2425,7 +2437,7 @@
       "lat": 41.9655328141476,
       "lon": -87.6641526617042,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205557"
+      "scraped_at": "2026-02-15T19:41:59.368025"
     },
     {
       "title": "- Apartamento Luminoso de 1 Habitaci\u00f3n con Buena Ubicaci\u00f3n",
@@ -2439,7 +2451,7 @@
       "lat": 41.883430253941,
       "lon": -87.9031620059302,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205629"
+      "scraped_at": "2026-02-15T19:41:59.368105"
     },
     {
       "title": "Edgewater 1 bed across from lake",
@@ -2453,7 +2465,7 @@
       "lat": 41.9908999475679,
       "lon": -87.6629030407531,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205699"
+      "scraped_at": "2026-02-15T19:41:59.368186"
     },
     {
       "title": "NEWLY RENOVATED 1 BEDROOM IN PORTAGE PARK",
@@ -2465,7 +2477,7 @@
       "lat": 41.9520224693392,
       "lon": -87.773722818608,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205777"
+      "scraped_at": "2026-02-15T19:41:59.368265"
     },
     {
       "title": "1 Bed 1 Bath on W Lawrence",
@@ -2477,7 +2489,7 @@
       "lat": 41.9693338161603,
       "lon": -87.6550552378336,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205917"
+      "scraped_at": "2026-02-15T19:41:59.368425"
     },
     {
       "title": "Opci\u00f3n Pr\u00e1ctica y C\u00e1lida Cerca de 82nd y Racine",
@@ -2491,7 +2503,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.205989"
+      "scraped_at": "2026-02-15T19:41:59.368502"
     },
     {
       "title": "Encantador 1BR / 1BA con Sala Amplia y Buena Ubicaci\u00f3n",
@@ -2505,7 +2517,7 @@
       "lat": 41.883430253941,
       "lon": -87.9031620059302,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206063"
+      "scraped_at": "2026-02-15T19:41:59.368580"
     },
     {
       "title": "LOVELY 1 BEDROOM., 1 BATH., APARTMENT FOR RENT!!!",
@@ -2517,7 +2529,7 @@
       "lat": 41.7457983431066,
       "lon": -87.6053998505213,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206200"
+      "scraped_at": "2026-02-15T19:41:59.368735"
     },
     {
       "title": "Beautifull 1bed ton of light block awy fron the lake and sheridan !",
@@ -2529,7 +2541,7 @@
       "lat": 42.0127909460453,
       "lon": -87.6637223704001,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206270"
+      "scraped_at": "2026-02-15T19:41:59.368813"
     },
     {
       "title": "Huge One bedroom, one bath in Rogers Park",
@@ -2541,7 +2553,7 @@
       "lat": 42.0017328605998,
       "lon": -87.6737422563208,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206343"
+      "scraped_at": "2026-02-15T19:41:59.368890"
     },
     {
       "title": "Amazing One bedroom, One Bathroom apartment in Rodgers Park",
@@ -2553,7 +2565,7 @@
       "lat": 42.0151297597648,
       "lon": -87.6633058300831,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206413"
+      "scraped_at": "2026-02-15T19:41:59.368965"
     },
     {
       "title": "- Espacios Brillantes y Funcionales Cerca de 82nd y Racine",
@@ -2567,7 +2579,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206489"
+      "scraped_at": "2026-02-15T19:41:59.369041"
     },
     {
       "title": "Apartment",
@@ -2579,7 +2591,7 @@
       "lat": 41.8390850394736,
       "lon": -87.6590573480324,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206556"
+      "scraped_at": "2026-02-15T19:41:59.369117"
     },
     {
       "title": "LOVELY 1 BEDROOM., 1 BATH., APARTMENT FOR RENT!!!",
@@ -2591,7 +2603,7 @@
       "lat": 41.7457983431066,
       "lon": -87.6053998505213,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206691"
+      "scraped_at": "2026-02-15T19:41:59.369271"
     },
     {
       "title": "- Departamento Listo para Mudarse: 1 Dormitorio y Sala Espaciosa",
@@ -2605,7 +2617,7 @@
       "lat": 41.883430253941,
       "lon": -87.9031620059302,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206762"
+      "scraped_at": "2026-02-15T19:41:59.369349"
     },
     {
       "title": "- Spacious, Sun\u2011Filled 1\u2011Bedroom Near 82nd & Racine",
@@ -2619,7 +2631,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206831"
+      "scraped_at": "2026-02-15T19:41:59.369435"
     },
     {
       "title": "Studio/ one bedroom",
@@ -2631,7 +2643,7 @@
       "lat": 41.741099516229,
       "lon": -87.6542972146707,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206899"
+      "scraped_at": "2026-02-15T19:41:59.369511"
     },
     {
       "title": "Near Lakeview- 2mo Free! - Recently Remodeled.",
@@ -2643,7 +2655,7 @@
       "lat": 41.9843991684247,
       "lon": -87.6583543288178,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.206966"
+      "scraped_at": "2026-02-15T19:41:59.369587"
     },
     {
       "title": "1br Close to Campus - A/C, Dishwasher, On-Site Laundry",
@@ -2652,13 +2664,13 @@
       "url": "https://chicago.craigslist.org/chc/apa/d/evanston-1br-close-to-campus-c/7911145367.html",
       "source": "Craigslist",
       "amenities": [
-        "laundry",
-        "ac"
+        "ac",
+        "laundry"
       ],
       "lat": 42.0567975424557,
       "lon": -87.6861530951205,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207058"
+      "scraped_at": "2026-02-15T19:41:59.369669"
     },
     {
       "title": "1 Bedroom near Swedish Covenant Hospital - A/C, Remodeled Kitchen, etc",
@@ -2672,7 +2684,7 @@
       "lat": 41.978629483428,
       "lon": -87.6968628222265,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207139"
+      "scraped_at": "2026-02-15T19:41:59.369759"
     },
     {
       "title": "Edgewater - 2mo Free! - Recently Remodeled. Walk to Red Line & Beach",
@@ -2686,7 +2698,7 @@
       "lat": 41.9843991684247,
       "lon": -87.6583543288178,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207207"
+      "scraped_at": "2026-02-15T19:41:59.369841"
     },
     {
       "title": "1 Bed 1 Bath on West Catalpa",
@@ -2698,7 +2710,7 @@
       "lat": 41.9820311338575,
       "lon": -87.658258644866,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207353"
+      "scraped_at": "2026-02-15T19:41:59.370002"
     },
     {
       "title": "one bedroom apartment in Maywood Il. for $1150.",
@@ -2710,7 +2722,7 @@
       "lat": 41.8793015200695,
       "lon": -87.8433022402871,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207421"
+      "scraped_at": "2026-02-15T19:41:59.370081"
     },
     {
       "title": "RIVER GROVE 1 BED WOW! HEAT HOT WATER TRASH SEWER PARKING INC. CATS OK",
@@ -2724,7 +2736,7 @@
       "lat": 41.9155319332848,
       "lon": -87.8255571644151,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207558"
+      "scraped_at": "2026-02-15T19:41:59.370236"
     },
     {
       "title": "Evanston \u2013 1BR / 1BA Apartment | $1,400/mo",
@@ -2736,7 +2748,7 @@
       "lat": 42.0307302546098,
       "lon": -87.6995608804836,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207631"
+      "scraped_at": "2026-02-15T19:41:59.370315"
     },
     {
       "title": "1 Bedroom 1 Bath Garden West Loop Apartment Next to United Center",
@@ -2748,7 +2760,7 @@
       "lat": 41.8790591589221,
       "lon": -87.6692548508696,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207703"
+      "scraped_at": "2026-02-15T19:41:59.370395"
     },
     {
       "title": "WOW! 1BD HEAT ELECTRICITY COOKING GAS WATER TRASH SEWER INC. DOG-CATS!",
@@ -2760,7 +2772,7 @@
       "lat": 41.9961316251949,
       "lon": -87.6876553904592,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207771"
+      "scraped_at": "2026-02-15T19:41:59.370474"
     },
     {
       "title": "- Spacious, Sun\u2011Filled 1BR with Full Kitchen and Great Storage",
@@ -2774,7 +2786,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207840"
+      "scraped_at": "2026-02-15T19:41:59.370556"
     },
     {
       "title": "C\u00f3modo Departamento de 1 Dormitorio con Sala Amplia y Cocina Completa",
@@ -2786,7 +2798,7 @@
       "lat": 41.883430253941,
       "lon": -87.9031620059302,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207908"
+      "scraped_at": "2026-02-15T19:41:59.370638"
     },
     {
       "title": "Spacious! West Edgewater! Close to Peterson/Ridge Metra!",
@@ -2800,7 +2812,7 @@
       "lat": 41.9969584032933,
       "lon": -87.6722537119692,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.207975"
+      "scraped_at": "2026-02-15T19:41:59.370725"
     },
     {
       "title": "1 bedroom in Uptown near red + purple lines and Montrose beach",
@@ -2814,7 +2826,7 @@
       "lat": 41.9718983752512,
       "lon": -87.6623976919778,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208045"
+      "scraped_at": "2026-02-15T19:41:59.370806"
     },
     {
       "title": "1 Bed 1 Bath on North Sheridan",
@@ -2826,7 +2838,7 @@
       "lat": 41.9876317963046,
       "lon": -87.6555525651998,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208111"
+      "scraped_at": "2026-02-15T19:41:59.370881"
     },
     {
       "title": "Prime 1-Bedroom Morton Grove!",
@@ -2838,7 +2850,7 @@
       "lat": 42.0430998404482,
       "lon": -87.7898968442058,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208246"
+      "scraped_at": "2026-02-15T19:41:59.371031"
     },
     {
       "title": "Ravenswood Updated 1 Bed w/ Free Heat!",
@@ -2850,7 +2862,7 @@
       "lat": 41.9908999475679,
       "lon": -87.6629030407531,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208314"
+      "scraped_at": "2026-02-15T19:41:59.371105"
     },
     {
       "title": "Spacious One Bedroom Apartment in Logan Square!",
@@ -2864,7 +2876,7 @@
       "lat": 41.9282395642223,
       "lon": -87.7094850824526,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208383"
+      "scraped_at": "2026-02-15T19:41:59.371181"
     },
     {
       "title": "\ud83c\udfe0 Spacious 1BR/1BA \u2013 Skylight Living Room, In-Unit Laundry, High Ceil",
@@ -2873,13 +2885,13 @@
       "url": "https://chicago.craigslist.org/chc/apa/d/chicago-spacious-1br-1ba-skylight/7910194280.html",
       "source": "Craigslist",
       "amenities": [
-        "laundry",
-        "ac"
+        "ac",
+        "laundry"
       ],
       "lat": 41.8604431872015,
       "lon": -87.7127910489303,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208458"
+      "scraped_at": "2026-02-15T19:41:59.371259"
     },
     {
       "title": "Best View In South Shore 1 Bedroom Condominium {Gym/Pkg/Doorman}",
@@ -2891,7 +2903,7 @@
       "lat": 41.7619998706786,
       "lon": -87.5702964452889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208599"
+      "scraped_at": "2026-02-15T19:41:59.371411"
     },
     {
       "title": "- Departamento Funcional de 1 Dormitorio con Cocina Equipada",
@@ -2903,7 +2915,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208667"
+      "scraped_at": "2026-02-15T19:41:59.371486"
     },
     {
       "title": "- Departamento Luminoso de 1 Habitaci\u00f3n con Cocina Completa y Excelent",
@@ -2917,7 +2929,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208740"
+      "scraped_at": "2026-02-15T19:41:59.371562"
     },
     {
       "title": "Studio Right  by the lake !No Sec. Dep!Second and 3rd  Month Free!",
@@ -2929,7 +2941,7 @@
       "lat": 41.9866755297446,
       "lon": -87.6570015754636,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208815"
+      "scraped_at": "2026-02-15T19:41:59.371640"
     },
     {
       "title": "- Departamento Funcional de 1 Dormitorio en Buena Ubicaci\u00f3n",
@@ -2943,7 +2955,7 @@
       "lat": 41.8724987921682,
       "lon": -87.9015978311496,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208889"
+      "scraped_at": "2026-02-15T19:41:59.371717"
     },
     {
       "title": "FREE  RENT (1 BR) Worth (between Chicago Ridge & Palos Hills)w/storage",
@@ -2955,7 +2967,7 @@
       "lat": 41.6895006560757,
       "lon": -87.7862969503792,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.208963"
+      "scraped_at": "2026-02-15T19:41:59.371794"
     },
     {
       "title": "\ud83c\udf24\ufe0f\ud83c\udfe1\u2728Top-Floor Light Haven \u2014 Renovated 1BD With Parking\u2728\ud83c\udfe1\ud83c\udf24\ufe0f",
@@ -2969,7 +2981,7 @@
       "lat": 41.9290015980898,
       "lon": -87.8399005898576,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209031"
+      "scraped_at": "2026-02-15T19:41:59.371873"
     },
     {
       "title": "1 bedrooms / 1 bathroom",
@@ -2981,7 +2993,7 @@
       "lat": 42.0086003327319,
       "lon": -87.6946976147188,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209100"
+      "scraped_at": "2026-02-15T19:41:59.371948"
     },
     {
       "title": "Appealing 1 Bedroom, 1 Bath in Rogers Park, Available: Now",
@@ -2993,7 +3005,7 @@
       "lat": 42.0115373143896,
       "lon": -87.6662095801886,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209166"
+      "scraped_at": "2026-02-15T19:41:59.372023"
     },
     {
       "title": "Phenomenal 1 Bedroom, 1 Bath in Edgewater, Available: 2/2/2026",
@@ -3005,7 +3017,7 @@
       "lat": 41.9858315629124,
       "lon": -87.6569540199666,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209233"
+      "scraped_at": "2026-02-15T19:41:59.372100"
     },
     {
       "title": "Astounding 1 Bedroom, 1 Bath in Rogers Park, Available: Now",
@@ -3017,7 +3029,7 @@
       "lat": 41.9982320884718,
       "lon": -87.6622561714024,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209301"
+      "scraped_at": "2026-02-15T19:41:59.372176"
     },
     {
       "title": "Amazing 1 Bedroom, 1 Bath in Edgewater, Available: Now",
@@ -3029,7 +3041,7 @@
       "lat": 41.998044158315,
       "lon": -87.6772327152086,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209370"
+      "scraped_at": "2026-02-15T19:41:59.372252"
     },
     {
       "title": "Appealing 1 Bedroom, 1 Bath in Rogers Park, Available: Now",
@@ -3041,7 +3053,7 @@
       "lat": 42.0115373143896,
       "lon": -87.6662095801886,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209447"
+      "scraped_at": "2026-02-15T19:41:59.372330"
     },
     {
       "title": "One Bedroom Apartment For Rent - Great Location!!",
@@ -3053,7 +3065,7 @@
       "lat": 41.9348205574569,
       "lon": -87.8679113505445,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209523"
+      "scraped_at": "2026-02-15T19:41:59.372410"
     },
     {
       "title": "SPACIOUS ONE BEDROOM APARTMENT",
@@ -3067,7 +3079,7 @@
       "lat": 41.932202713291,
       "lon": -87.8113025474308,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209594"
+      "scraped_at": "2026-02-15T19:41:59.372494"
     },
     {
       "title": "- 1 Dormitorio Listo para Mudarte con Cocina Completa y Sala Amplia",
@@ -3079,7 +3091,7 @@
       "lat": 41.8724987921682,
       "lon": -87.9015978311496,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209669"
+      "scraped_at": "2026-02-15T19:41:59.372571"
     },
     {
       "title": "- Bright 1BR Apartment with Water Included Near 82nd & Racine",
@@ -3093,7 +3105,7 @@
       "lat": 41.7450334444501,
       "lon": -87.6536480534889,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209744"
+      "scraped_at": "2026-02-15T19:41:59.372647"
     },
     {
       "title": "Beautiful  One Bedrooms (Chicago-West Pullman )",
@@ -3105,7 +3117,7 @@
       "lat": 41.6771585722114,
       "lon": -87.6358622976134,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209817"
+      "scraped_at": "2026-02-15T19:41:59.372725"
     },
     {
       "title": "GREAT 3RD FLOOR WALK UP IN RIVER GROVE",
@@ -3117,7 +3129,7 @@
       "lat": 41.9290422780933,
       "lon": -87.8399481453546,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209891"
+      "scraped_at": "2026-02-15T19:41:59.372803"
     },
     {
       "title": "- C\u00f3modo 1 dormitorio con sala amplia y excelente almacenamiento",
@@ -3131,7 +3143,7 @@
       "lat": 41.8724987921682,
       "lon": -87.9015978311496,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.209960"
+      "scraped_at": "2026-02-15T19:41:59.372881"
     },
     {
       "title": "1.5 BEDROOM., 1 BATH APARTMENT FOR RENT!!!",
@@ -3143,7 +3155,7 @@
       "lat": 41.8021985895829,
       "lon": -87.6005978912406,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210027"
+      "scraped_at": "2026-02-15T19:41:59.372959"
     },
     {
       "title": "NORTHWEST | NORTH SUBURBAN LOCATION --- 1 BR -- 1 BA",
@@ -3155,7 +3167,7 @@
       "lat": 42.0121996536007,
       "lon": -87.8416968125453,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210170"
+      "scraped_at": "2026-02-15T19:41:59.373113"
     },
     {
       "title": "\ud83c\udf0a\ud83d\udddd\ufe0f\ud83c\udf3fEdgewater Ease \u2014 A Renovated One-Bed Sanctuary\ud83c\udf3f\ud83d\udddd\ufe0f\ud83c\udf0a",
@@ -3167,7 +3179,7 @@
       "lat": 41.9972998861391,
       "lon": -87.6620968891354,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210240"
+      "scraped_at": "2026-02-15T19:41:59.373193"
     },
     {
       "title": "1 Bedroom in Belmont Gardens- Recently Updated- Gas/Heat Included",
@@ -3179,7 +3191,7 @@
       "lat": 41.9332340373222,
       "lon": -87.7405554377652,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210308"
+      "scraped_at": "2026-02-15T19:41:59.373269"
     },
     {
       "title": "Large One-Bedroom Apt * Separate Living + Dining Rooms *Great Location",
@@ -3191,7 +3203,7 @@
       "lat": 41.8507344173636,
       "lon": -87.7798632072981,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210378"
+      "scraped_at": "2026-02-15T19:41:59.373344"
     },
     {
       "title": "\ud83c\udf1f Cozy 1-Bed, 1 Bath in Little Village! \ud83c\udf1f Utilities Included",
@@ -3203,7 +3215,7 @@
       "lat": 41.8401713674531,
       "lon": -87.7317101153245,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210454"
+      "scraped_at": "2026-02-15T19:41:59.373421"
     },
     {
       "title": "3rd Floor, 1 Bedroom 1 Bath. Little Village, Next to Pilsen",
@@ -3215,7 +3227,7 @@
       "lat": 41.8456322281982,
       "lon": -87.695558197327,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210524"
+      "scraped_at": "2026-02-15T19:41:59.373496"
     },
     {
       "title": "Modern one bedroom apartment",
@@ -3227,7 +3239,7 @@
       "lat": 41.7016582475299,
       "lon": -87.7608547594878,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210591"
+      "scraped_at": "2026-02-15T19:41:59.373571"
     },
     {
       "title": "Large Rogers Park 1 Bed - Close to everything!",
@@ -3239,7 +3251,7 @@
       "lat": 42.0193547505459,
       "lon": -87.6732712850133,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210664"
+      "scraped_at": "2026-02-15T19:41:59.373647"
     },
     {
       "title": "900 Sq ft 1 bedroom in Rogers Park, very close to Red Line",
@@ -3251,7 +3263,7 @@
       "lat": 42.0094987305546,
       "lon": -87.6689024818256,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210742"
+      "scraped_at": "2026-02-15T19:41:59.373724"
     },
     {
       "title": "LARGE 1 BEDROOM 1BATH CLASSIC UNIT SECTION 8 WELCOME",
@@ -3263,7 +3275,7 @@
       "lat": 41.8568982973233,
       "lon": -87.7205975988885,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210815"
+      "scraped_at": "2026-02-15T19:41:59.373799"
     },
     {
       "title": "Apartment $1,000 / 1 Bedrooms 1 Bath - Washington & Lorel",
@@ -3275,7 +3287,7 @@
       "lat": 41.8824298696307,
       "lon": -87.7587577339578,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210888"
+      "scraped_at": "2026-02-15T19:41:59.373875"
     },
     {
       "title": "BIG Top Floor 1BD in Rogers Park With FREE Heat!!!",
@@ -3287,7 +3299,7 @@
       "lat": 41.9982320884718,
       "lon": -87.6657580894461,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.210955"
+      "scraped_at": "2026-02-15T19:41:59.373952"
     },
     {
       "title": "Quiet, Secure, Non Smoking, 1 bedroom apt. on Chicago's South Side",
@@ -3299,7 +3311,7 @@
       "lat": 41.7595034935654,
       "lon": -87.6430477613217,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.211026"
+      "scraped_at": "2026-02-15T19:41:59.374033"
     },
     {
       "title": "Hillside Condo: Easy Access to I-290/I-294 | Spacious 1 BR with Full",
@@ -3313,7 +3325,7 @@
       "lat": 41.8724987921682,
       "lon": -87.9015978311496,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.211094"
+      "scraped_at": "2026-02-15T19:41:59.374112"
     },
     {
       "title": "Large 1 bedroom in Rogers Park. HEAT INCLUDED",
@@ -3325,7 +3337,7 @@
       "lat": 42.0094987305546,
       "lon": -87.6689024818256,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.211162"
+      "scraped_at": "2026-02-15T19:41:59.374192"
     },
     {
       "title": "\ud83c\udfe0\ud83c\udf53\ud83d\udc52Your Next Home by the Lake\ud83c\udfe0\ud83c\udf53\ud83d\udc52",
@@ -3337,7 +3349,7 @@
       "lat": 42.0115986208737,
       "lon": -87.6648018228861,
       "description": "",
-      "scraped_at": "2026-02-15T19:30:45.211230"
+      "scraped_at": "2026-02-15T19:41:59.374272"
     },
     {
       "title": "Woodlawn Terrace",
@@ -3351,7 +3363,7 @@
       "lat": 41.808623,
       "lon": -87.597351,
       "description": "Onsite Laundry Outdoor Space Storage Outdoor Space Bike Storage Package Service Onsite Laundry",
-      "scraped_at": "2026-02-15T19:30:49.939965"
+      "scraped_at": "2026-02-15T19:42:04.550067"
     },
     {
       "title": "5633 N Winthrop",
@@ -3365,7 +3377,7 @@
       "lat": 41.98466,
       "lon": -87.657799,
       "description": "Central Heat Refrigerator Water Security/Intercom Entry Cooking Gas Air Conditioning Onsite Laundry Elevator Gas Range Trash Heating Laundry Room On-site Air Conditioning Onsite Laundry Laundry Room On-site Elevator Security/Intercom Entry Heating Refrigerator Cooking Gas Trash Range Water",
-      "scraped_at": "2026-02-15T19:30:49.939988"
+      "scraped_at": "2026-02-15T19:42:04.550110"
     },
     {
       "title": "3955 N Lamon",
@@ -3377,7 +3389,7 @@
       "lat": 41.952981,
       "lon": -87.749503,
       "description": "Laundry Room On-site Onsite Laundry Security/Intercom Entry Security/Intercom Entry Storage Onsite Laundry Laundry Room On-site",
-      "scraped_at": "2026-02-15T19:30:49.939994"
+      "scraped_at": "2026-02-15T19:42:04.550122"
     },
     {
       "title": "The John Evans Building",
@@ -3391,7 +3403,7 @@
       "lat": 42.045956,
       "lon": -87.678051,
       "description": "No Pets Allowed Hardwood Floor Heat Included Cable Ready Ceiling Fan Water, Sewer and Trash Included Near Public Transportation Onsite Laundry Onsite Laundry Garage Parking Storage Storage Units Service Animals are Welcomed Walking Distance to Restaurant Intercom Courtyard",
-      "scraped_at": "2026-02-15T19:30:49.940004"
+      "scraped_at": "2026-02-15T19:42:04.550137"
     },
     {
       "title": "Winthrop Station",
@@ -3406,7 +3418,7 @@
       "lat": 41.980642,
       "lon": -87.657433,
       "description": "Garage Parking Available Laundry Care Facility Lobby Lounge Close To Downtown Close to Convience Store",
-      "scraped_at": "2026-02-15T19:30:49.940009"
+      "scraped_at": "2026-02-15T19:42:04.550146"
     },
     {
       "title": "Alex Skinger",
@@ -3420,7 +3432,7 @@
       "lat": 41.967341,
       "lon": -87.659933,
       "description": "Hardwood Floor Storage Health Club Renovated Microwave Onsite Laundry Common Outdoor Space Stainless Steel Appliances Open Kitchen Lounge Outdoor Space Business Center Onsite Laundry Hardwood Floor Fitness Center Residents Lounge Storage Outdoor Space Stainless Steel Appliances Open Kitchen Lounge Renovated Health Club Common Outdoor Space Microwave Business Center",
-      "scraped_at": "2026-02-15T19:30:49.940019"
+      "scraped_at": "2026-02-15T19:42:04.550160"
     },
     {
       "title": "Alex Skinger",
@@ -3429,13 +3441,13 @@
       "url": "https://www.padmapper.com/rentals/20453687p/1-bedroom-1-bath-apartment-at-4700-north-racine-avenue-chicago-il-60640",
       "source": "PadMapper",
       "amenities": [
-        "laundry",
-        "ac"
+        "ac",
+        "laundry"
       ],
       "lat": 41.967341,
       "lon": -87.659933,
       "description": "Hardwood Floor Dishwasher Storage Health Club Renovated Microwave Onsite Laundry Common Outdoor Space Stainless Steel Appliances Open Kitchen Lounge Outdoor Space Business Center Onsite Laundry Dishwasher Hardwood Floor Fitness Center Residents Lounge Storage Business Center Outdoor Space Stainless Steel Appliances Microwave Open Kitchen Lounge Renovated Health Club Common Outdoor Space",
-      "scraped_at": "2026-02-15T19:30:49.940027"
+      "scraped_at": "2026-02-15T19:42:04.550173"
     },
     {
       "title": "Alex Skinger",
@@ -3449,7 +3461,7 @@
       "lat": 41.974942,
       "lon": -87.658186,
       "description": "Central Heat Hardwood Floor Renovated Air Conditioning Onsite Laundry Onsite Laundry Hardwood Floor Elevator Renovated",
-      "scraped_at": "2026-02-15T19:30:49.940040"
+      "scraped_at": "2026-02-15T19:42:04.550195"
     },
     {
       "title": "Alex Skinger",
@@ -3463,7 +3475,7 @@
       "lat": 42.014859,
       "lon": -87.662805,
       "description": "Hardwood Floor Storage Lake View Bicycle Room Walk-in Closet Eat-in Kitchen Onsite Laundry Courtyard Brownstone Dining Room High Ceilings Courtyard Storage Brownstone Hardwood Floor Walk-in Closet Elevator Outdoor Space High Ceiling Bicycle Room Eat-in Kitchen Onsite Laundry Dining Room Lake View",
-      "scraped_at": "2026-02-15T19:30:49.940048"
+      "scraped_at": "2026-02-15T19:42:04.550208"
     },
     {
       "title": "Alex Skinger",
@@ -3477,7 +3489,7 @@
       "lat": 41.96928,
       "lon": -87.69462,
       "description": "Hardwood Floor Light Eat-in Kitchen Walk-in Closet Open View Onsite Laundry Courtyard Brownstone Dining Room High Ceilings Eat-in Kitchen Light Courtyard High Ceiling Brownstone Onsite Laundry Hardwood Floor Open View Outdoor Space Walk-in Closet Dining Room",
-      "scraped_at": "2026-02-15T19:30:49.940062"
+      "scraped_at": "2026-02-15T19:42:04.550233"
     },
     {
       "title": "Alex Skinger",
@@ -3491,7 +3503,7 @@
       "lat": 41.997559,
       "lon": -87.67387,
       "description": "Storage Hardwood Floor Original Details Bicycle Room Walk-in Closet Eat-in Kitchen WiFi Open View Ceiling Fan Light Onsite Laundry Brownstone Dining Room High Ceilings High Ceiling Storage Brownstone Onsite Laundry Eat-in Kitchen Open View Original Details Walk-in Closet Bicycle Room Dining Room WiFi Hardwood Floor Light",
-      "scraped_at": "2026-02-15T19:30:49.940078"
+      "scraped_at": "2026-02-15T19:42:04.550263"
     },
     {
       "title": "Alex Skinger",
@@ -3505,7 +3517,1033 @@
       "lat": 41.958315,
       "lon": -87.649507,
       "description": "Utilities Included Hardwood Floor Granite Kitchen Bicycle Room Walk-in Closet Open View Microwave Onsite Laundry Courtyard Dining Room Brownstone High Ceilings Onsite Laundry Hardwood Floor Walk-in Closet Storage Outdoor Space Microwave Courtyard High Ceiling Bicycle Room Utilities Included Dining Room Open View Granite Kitchen Brownstone",
-      "scraped_at": "2026-02-15T19:30:49.940101"
+      "scraped_at": "2026-02-15T19:42:04.550304"
+    },
+    {
+      "title": "1400 W Devon Ave #48c54f303 - Apartment for rent",
+      "price": 1436.0,
+      "address": "1400 W Devon Ave #48c54f303, Chicago, IL, 60660",
+      "url": "https://www.zillow.com/apartments/chicago-il/1400-w.-devon-avenue/CjjCMj/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.998158,
+      "lon": -87.665886,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312641"
+    },
+    {
+      "title": "5125 S Kenwood Ave #601 - Apartment for rent",
+      "price": 1469.0,
+      "address": "5125 S Kenwood Ave #601, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/ivy-hastings/Dw5K/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.801586,
+      "lon": -87.592995,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312704"
+    },
+    {
+      "title": "5200 N Sheridan Rd #504 - Apartment for rent",
+      "price": 1473.0,
+      "address": "5200 N Sheridan Rd #504, Chicago, IL, 60640",
+      "url": "https://www.zillow.com/apartments/chicago-il/the-edison/5XcBmv/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.976543,
+      "lon": -87.65535,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312712"
+    },
+    {
+      "title": "5401 S Cornell Ave #216 - Apartment for rent",
+      "price": 1282.0,
+      "address": "5401 S Cornell Ave #216, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/5401-cornell-by-3l-living/CkCSBG/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.797966,
+      "lon": -87.58507,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312720"
+    },
+    {
+      "title": "5320-5326.5 S Drexel Ave #225-2B - Apartment for rent",
+      "price": 1500.0,
+      "address": "5320-5326.5 S Drexel Ave #225-2B, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/5320-5326.5-s.-drexel-boulevard/Ch4Mjw/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.808617,
+      "lon": -87.60388,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312726"
+    },
+    {
+      "title": "5550 N Kenmore Ave #1B-1Ba-650Sqft - Apartment for rent",
+      "price": 1151.0,
+      "address": "5550 N Kenmore Ave #1B-1Ba-650Sqft, Chicago, IL, 60640",
+      "url": "https://www.zillow.com/apartments/chicago-il/bryn-mawr-belle-shore/5XfCtq/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.983387,
+      "lon": -87.656845,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312732"
+    },
+    {
+      "title": "7148 S East End Ave #1650-2 - Apartment for rent",
+      "price": 1325.0,
+      "address": "7148 S East End Ave #1650-2, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/east-end/CkCgDZ/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.76451,
+      "lon": -87.583954,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312738"
+    },
+    {
+      "title": "7100 S South Shore Dr #505 - Apartment for rent",
+      "price": 1500.0,
+      "address": "7100 S South Shore Dr #505, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/b/7100-s-south-shore-dr-chicago-il-Chh5/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.766125,
+      "lon": -87.56302,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312744"
+    },
+    {
+      "title": "5625 N Winthrop Ave #F0a5add22 - Apartment for rent",
+      "price": 1400.0,
+      "address": "5625 N Winthrop Ave #F0a5add22, Chicago, IL, 60660",
+      "url": "https://www.zillow.com/apartments/chicago-il/5625-north-winthrop/5Xfb4v/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.984417,
+      "lon": -87.65752,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312750"
+    },
+    {
+      "title": "4721-29 S Ellis Ave #47275-3A - Apartment for rent",
+      "price": 1435.0,
+      "address": "4721-29 S Ellis Ave #47275-3A, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/4721-s.-ellis-avenue/ChGWfQ/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.806873,
+      "lon": -87.60164,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312756"
+    },
+    {
+      "title": "2601 W Fitch Ave #Ca88d2b29 - Apartment for rent",
+      "price": 1325.0,
+      "address": "2601 W Fitch Ave #Ca88d2b29, Chicago, IL, 60645",
+      "url": "https://www.zillow.com/apartments/chicago-il/fitch-apartments/CkBfjF/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 42.011005,
+      "lon": -87.69531,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312762"
+    },
+    {
+      "title": "1120-1126 E 47th St #I3 - Apartment for rent",
+      "price": 1465.0,
+      "address": "1120-1126 E 47th St #I3, Chicago, IL, 60653",
+      "url": "https://www.zillow.com/apartments/chicago-il/maple-court/CkBdtH/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.8094,
+      "lon": -87.61784,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312768"
+    },
+    {
+      "title": "3000-3030 W Marquette Rd #2 - Apartment for rent",
+      "price": 1050.0,
+      "address": "3000-3030 W Marquette Rd #2, Chicago, IL, 60629",
+      "url": "https://www.zillow.com/apartments/chicago-il/park-view-marquette/CgyGfK/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.771904,
+      "lon": -87.69836,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312773"
+    },
+    {
+      "title": "6943 S Cornell Ave #79584a980 - Apartment for rent",
+      "price": 950.0,
+      "address": "6943 S Cornell Ave #79584a980, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/cornell-apartments/9S5YBw/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.768543,
+      "lon": -87.58396,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312779"
+    },
+    {
+      "title": "5300-5308 S Hyde Park Blvd #5300-305 - Apartment for rent",
+      "price": 1390.0,
+      "address": "5300-5308 S Hyde Park Blvd #5300-305, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/5300-5308-s.-hyde-park-boulevard/CpRDjP/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.797237,
+      "lon": -87.583984,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312785"
+    },
+    {
+      "title": "5633 N Kenmore Ave #631ca4e8e - Apartment for rent",
+      "price": 1390.0,
+      "address": "5633 N Kenmore Ave #631ca4e8e, Chicago, IL, 60660",
+      "url": "https://www.zillow.com/apartments/chicago-il/5633-n-kenmore/5XfbpL/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.984684,
+      "lon": -87.65625,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312793"
+    },
+    {
+      "title": "7715 S South Shore Dr APT 413 - Apartment for rent",
+      "price": 1500.0,
+      "address": "7715 S South Shore Dr APT 413, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/7715-s-south-shore-dr-chicago-il-60649/5Xjw89/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.75678,
+      "lon": -87.55294,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312799"
+    },
+    {
+      "title": "925 E 46th St #G - Apartment for rent",
+      "price": 1370.0,
+      "address": "925 E 46th St #G, Chicago, IL, 60653",
+      "url": "https://www.zillow.com/apartments/chicago-il/925-east-46th-street/5XdHcy/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.811054,
+      "lon": -87.60284,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312806"
+    },
+    {
+      "title": "6650 W Belden Ave #1B-1Ba-611Sqft - Apartment for rent",
+      "price": 1050.0,
+      "address": "6650 W Belden Ave #1B-1Ba-611Sqft, Elmwood Park, IL, 60707",
+      "url": "https://www.zillow.com/apartments/chicago-il/montclare-senior-residences/5hJ4gc/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.92092,
+      "lon": -87.79132,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312812"
+    },
+    {
+      "title": "7635 S East End Ave #7641-1W - Apartment for rent",
+      "price": 1350.0,
+      "address": "7635 S East End Ave #7641-1W, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/7635-s-east-end-ave/Cn82nf/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.7559,
+      "lon": -87.58315,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312818"
+    },
+    {
+      "title": "7270 S South Shore Dr #B0a54e08f - Apartment for rent",
+      "price": 1400.0,
+      "address": "7270 S South Shore Dr #B0a54e08f, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/7270-s-south-shore-dr./CkBG8J/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.764065,
+      "lon": -87.56118,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312824"
+    },
+    {
+      "title": "5405-5407 S Woodlawn Ave #5405-1A - Apartment for rent",
+      "price": 1435.0,
+      "address": "5405-5407 S Woodlawn Ave #5405-1A, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/5405-5407-s.-woodlawn-avenue/9grLT4/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.79999,
+      "lon": -87.59663,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312831"
+    },
+    {
+      "title": "7131 S Bennett Ave #D79a3aac2 - Apartment for rent",
+      "price": 1300.0,
+      "address": "7131 S Bennett Ave #D79a3aac2, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/7131-51-s-bennett/5XjM5W/",
+      "source": "Zillow",
+      "amenities": [
+        "ac"
+      ],
+      "lat": 41.765068,
+      "lon": -87.578835,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312837"
+    },
+    {
+      "title": "1246 W Pratt Blvd #E2c78a851 - Apartment for rent",
+      "price": 1395.0,
+      "address": "1246 W Pratt Blvd #E2c78a851, Chicago, IL, 60626",
+      "url": "https://www.zillow.com/apartments/chicago-il/1246-w.-pratt/5XhDbv/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 42.00585,
+      "lon": -87.66289,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312844"
+    },
+    {
+      "title": "1373-83 W Greenleaf Ave #7021-3S - Apartment for rent",
+      "price": 1500.0,
+      "address": "1373-83 W Greenleaf Ave #7021-3S, Chicago, IL, 60626",
+      "url": "https://www.zillow.com/apartments/chicago-il/fawaris-greenleaf-llc/CnDF8t/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 42.009136,
+      "lon": -87.66965,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312850"
+    },
+    {
+      "title": "1717 W 77th St Unit 1 - Apartment for rent",
+      "price": 1010.0,
+      "address": "1717 W 77th St Unit 1, Chicago, IL, 60620",
+      "url": "https://www.zillow.com/apartments/chicago-il/1717-w-77th-st-7707-s-hermitage-chicago-il-60620/5XjMHr/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.753918,
+      "lon": -87.66655,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312857"
+    },
+    {
+      "title": "1108 E 82nd St Unit 1112-1A - Apartment for rent",
+      "price": 900.0,
+      "address": "1108 E 82nd St Unit 1112-1A, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/1108-e-82nd-st-chicago-il-60619/CgGsJ7/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.746147,
+      "lon": -87.597145,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312863"
+    },
+    {
+      "title": "6611 N Sheridan Rd APT 401 - Apartment for rent",
+      "price": 1450.0,
+      "address": "6611 N Sheridan Rd APT 401, Chicago, IL, 60626",
+      "url": "https://www.zillow.com/apartments/chicago-il/6611-north-sheridan-road-building/C6Tk/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 42.003014,
+      "lon": -87.66033,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312869"
+    },
+    {
+      "title": "6904-6906 S Cregier Ave #1747-2 - Apartment for rent",
+      "price": 1160.0,
+      "address": "6904-6906 S Cregier Ave #1747-2, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/6904-6906-s-cregier-ave-1745-1757-e-69th-st-chicago-il-60649/CpzJs8/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.768852,
+      "lon": -87.58129,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312875"
+    },
+    {
+      "title": "4344 S Ellis Ave APT 311 - Apartment for rent",
+      "price": 1495.0,
+      "address": "4344 S Ellis Ave APT 311, Chicago, IL, 60653",
+      "url": "https://www.zillow.com/apartments/chicago-il/4344-ellis-mobility-zone/BNPz/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.81554,
+      "lon": -87.60225,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:14.312881"
+    },
+    {
+      "title": "8215 S Ellis Ave #104 - Apartment for rent",
+      "price": 1450.0,
+      "address": "8215 S Ellis Ave #104, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/8215-s-ellis/9RzbBy/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.745323,
+      "lon": -87.59981,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247614"
+    },
+    {
+      "title": "6151 N Winthrop Ave #5756b69de - Apartment for rent",
+      "price": 1280.0,
+      "address": "6151 N Winthrop Ave #5756b69de, Chicago, IL, 60660",
+      "url": "https://www.zillow.com/apartments/chicago-il/winthrop-tower/5XdXPL/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.993813,
+      "lon": -87.65792,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247637"
+    },
+    {
+      "title": "5633 N Winthrop Ave APT 211 - Apartment for rent",
+      "price": 1495.0,
+      "address": "5633 N Winthrop Ave APT 211, Chicago, IL, 60660",
+      "url": "https://www.zillow.com/apartments/chicago-il/winthrop-suites-apartments/5XfXhV/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.984646,
+      "lon": -87.657646,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247647"
+    },
+    {
+      "title": "6633 N Sheridan Rd APT 602 - Apartment for rent",
+      "price": 1420.0,
+      "address": "6633 N Sheridan Rd APT 602, Chicago, IL, 60626",
+      "url": "https://www.zillow.com/apartments/chicago-il/live-the-lakefront-dream-at-north-shore-apartments/5XgTGg/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 42.003418,
+      "lon": -87.6604,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247656"
+    },
+    {
+      "title": "1115 S Karlov Ave #1117-1 - Apartment for rent",
+      "price": 1175.0,
+      "address": "1115 S Karlov Ave #1117-1, Chicago, IL, 60624",
+      "url": "https://www.zillow.com/apartments/chicago-il/1115-s-karlov-ave-1115-17-s-karlov-chicago-il-60624/CqTTKt/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.867416,
+      "lon": -87.72751,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247664"
+    },
+    {
+      "title": "8127 S Ellis Ave #8129-3W - Apartment for rent",
+      "price": 1010.0,
+      "address": "8127 S Ellis Ave #8129-3W, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/8127-s-ellis-ave-chicago-il-60619/5XdsR7/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.74663,
+      "lon": -87.59985,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247671"
+    },
+    {
+      "title": "5737 N Kenmore Ave #41aeaf7ef - Apartment for rent",
+      "price": 1400.0,
+      "address": "5737 N Kenmore Ave #41aeaf7ef, Chicago, IL, 60660",
+      "url": "https://www.zillow.com/apartments/chicago-il/5737-n-kenmore-edgewater-apartments/CkBQXq/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.986633,
+      "lon": -87.65631,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247678"
+    },
+    {
+      "title": "7934 S Wabash Ave #7942-2B - Apartment for rent",
+      "price": 1005.0,
+      "address": "7934 S Wabash Ave #7942-2B, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/7934-42-s-wabash-chicago-il-60619/5XfmcM/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.749817,
+      "lon": -87.62344,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247686"
+    },
+    {
+      "title": "6401 N Sheridan Rd #1-0304 - Apartment for rent",
+      "price": 1494.0,
+      "address": "6401 N Sheridan Rd #1-0304, Chicago, IL, 60626",
+      "url": "https://www.zillow.com/apartments/chicago-il/sheridan-lake-6401-n-sheridan-rd/5Xcqw9/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.998703,
+      "lon": -87.65988,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247692"
+    },
+    {
+      "title": "4050 N Milwaukee Ave #4905-1 - Apartment for rent",
+      "price": 1450.0,
+      "address": "4050 N Milwaukee Ave #4905-1, Chicago, IL, 60641",
+      "url": "https://www.zillow.com/apartments/chicago-il/portage-park-theater-apartments/DsHM/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.953964,
+      "lon": -87.74931,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247700"
+    },
+    {
+      "title": "7348 S Dr Martin Luther King Jr Dr #7364-2 - Apartment for rent",
+      "price": 1105.0,
+      "address": "7348 S Dr Martin Luther King Jr Dr #7364-2, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/7348-s-dr-martin-luther-king-jr-dr-chicago-il-60619/9sGv/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.760605,
+      "lon": -87.61546,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247708"
+    },
+    {
+      "title": "3955 N Lamon Ave APT 309 - Apartment for rent",
+      "price": 1450.0,
+      "address": "3955 N Lamon Ave APT 309, Chicago, IL, 60641",
+      "url": "https://www.zillow.com/apartments/chicago-il/lamon-courts-apartments/CkBh62/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.95298,
+      "lon": -87.749504,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247716"
+    },
+    {
+      "title": "7419 S Phillips Ave #3 - Apartment for rent",
+      "price": 920.0,
+      "address": "7419 S Phillips Ave #3, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/7417-25-s-phillips-2444-e-74th-place-chicago-il-60649/DDwR/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.760212,
+      "lon": -87.56458,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247723"
+    },
+    {
+      "title": "5345 S Harper Ave #5345-210 - Apartment for rent",
+      "price": 1390.0,
+      "address": "5345 S Harper Ave #5345-210, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/ivy-at-harper/CkBGmv/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.798325,
+      "lon": -87.588715,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247729"
+    },
+    {
+      "title": "4015-4023 W School St #4019-1W - Apartment for rent",
+      "price": 1450.0,
+      "address": "4015-4023 W School St #4019-1W, Chicago, IL, 60641",
+      "url": "https://www.zillow.com/apartments/chicago-il/sap-school-4015-23/CjKgZH/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.940716,
+      "lon": -87.728096,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247736"
+    },
+    {
+      "title": "1704 W 77th St #1708-3 - Apartment for rent",
+      "price": 1025.0,
+      "address": "1704 W 77th St #1708-3, Chicago, IL, 60620",
+      "url": "https://www.zillow.com/apartments/chicago-il/1704-w-77th-st-7656-s-paulina-st-chicago-il-60620/CpHvY6/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.754086,
+      "lon": -87.66629,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247742"
+    },
+    {
+      "title": "3334-3344 W Ainslie St #3344-I2 - Apartment for rent",
+      "price": 1395.0,
+      "address": "3334-3344 W Ainslie St #3344-I2, Chicago, IL, 60625",
+      "url": "https://www.zillow.com/apartments/chicago-il/ainslie/CmDd8X/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.97031,
+      "lon": -87.704094,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247749"
+    },
+    {
+      "title": "5419 W Montrose Ave #5421-S3 - Apartment for rent",
+      "price": 1400.0,
+      "address": "5419 W Montrose Ave #5421-S3, Chicago, IL, 60641",
+      "url": "https://www.zillow.com/apartments/chicago-il/5419-27-w-montrose/DXBd/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.96014,
+      "lon": -87.76316,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247755"
+    },
+    {
+      "title": "7300 S South Shore Dr #B269da804 - Apartment for rent",
+      "price": 1175.0,
+      "address": "7300 S South Shore Dr #B269da804, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/7300-venture/CkZzvK/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.763813,
+      "lon": -87.56087,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247762"
+    },
+    {
+      "title": "5101 W Monroe St #100-3 - Apartment for rent",
+      "price": 1050.0,
+      "address": "5101 W Monroe St #100-3, Chicago, IL, 60644",
+      "url": "https://www.zillow.com/apartments/chicago-il/5101-w-monroe-st-chicago-il-60644/CpHvgP/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.879135,
+      "lon": -87.75374,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247768"
+    },
+    {
+      "title": "1530-42 N Kedzie Ave #1542 - Apartment for rent",
+      "price": 1450.0,
+      "address": "1530-42 N Kedzie Ave #1542, Chicago, IL, 60651",
+      "url": "https://www.zillow.com/apartments/chicago-il/1530-kedzie-llc/ChHZV3/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.90936,
+      "lon": -87.707436,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247774"
+    },
+    {
+      "title": "211-17 E 71st Pl #215-103 - Apartment for rent",
+      "price": 945.0,
+      "address": "211-17 E 71st Pl #215-103, Chicago, IL, 60638",
+      "url": "https://www.zillow.com/apartments/chicago-il/211-17-e-71st-chicago-il-60619/Cpsk2X/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.765083,
+      "lon": -87.594795,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247781"
+    },
+    {
+      "title": "11143 S Dr Martin Luther King Jr Dr #6 - Apartment for rent",
+      "price": 1070.0,
+      "address": "11143 S Dr Martin Luther King Jr Dr #6, Chicago, IL, 60628",
+      "url": "https://www.zillow.com/apartments/chicago-il/11143-s-dr-martin-luther-king-jr-dr-chicago-il-60628/Bh33Sg/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.691456,
+      "lon": -87.61299,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247788"
+    },
+    {
+      "title": "7801 S South Shore Dr #425 - Apartment for rent",
+      "price": 1050.0,
+      "address": "7801 S South Shore Dr #425, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/7801-s-south-shore-dr/CkBfS9/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.755245,
+      "lon": -87.55108,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247795"
+    },
+    {
+      "title": "5162 S King Dr #5174-3 - Apartment for rent",
+      "price": 1150.0,
+      "address": "5162 S King Dr #5174-3, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/5152-78-s-king/Dkjs/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.800793,
+      "lon": -87.61614,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247801"
+    },
+    {
+      "title": "2041-43 E 75th St #2043-2D - Apartment for rent",
+      "price": 935.0,
+      "address": "2041-43 E 75th St #2043-2D, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/2041-43-e-75th-st-chicago-il-60649/BWkn4b/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.758896,
+      "lon": -87.57278,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247807"
+    },
+    {
+      "title": "434 W Wellington Ave APT 209 - Apartment for rent",
+      "price": 1495.0,
+      "address": "434 W Wellington Ave APT 209, Chicago, IL, 60657",
+      "url": "https://www.zillow.com/apartments/chicago-il/434-wellington/CnWHPT/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.936867,
+      "lon": -87.64093,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:20.247813"
+    },
+    {
+      "title": "1401 E Hyde Park Blvd #1401-802 - Apartment for rent",
+      "price": 1420.0,
+      "address": "1401 E Hyde Park Blvd #1401-802, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/ivy-at-carlson/C42v/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.80208,
+      "lon": -87.591606,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998816"
+    },
+    {
+      "title": "5015 W Jackson Blvd #F - Apartment for rent",
+      "price": 1215.0,
+      "address": "5015 W Jackson Blvd #F, Chicago, IL, 60644",
+      "url": "https://www.zillow.com/apartments/chicago-il/5015-w-jackson-blvd-chicago-il-60644/Cpv9M8/",
+      "source": "Zillow",
+      "amenities": [
+        "ac"
+      ],
+      "lat": 41.87646,
+      "lon": -87.749886,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998830"
+    },
+    {
+      "title": "1310 E Hyde Park Blvd #1316-1 - Apartment for rent",
+      "price": 1475.0,
+      "address": "1310 E Hyde Park Blvd #1316-1, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/the-trilogy-at-hyde-park/DLh6/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.802803,
+      "lon": -87.59448,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998835"
+    },
+    {
+      "title": "1369 E Hyde Park Blvd #1369-702 - Apartment for rent",
+      "price": 1390.0,
+      "address": "1369 E Hyde Park Blvd #1369-702, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/ivy-at-fairfax/CkfqHj/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.80222,
+      "lon": -87.5923,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998845"
+    },
+    {
+      "title": "4742 S Woodlawn Ave #46-5-1E - Apartment for rent",
+      "price": 1395.0,
+      "address": "4742 S Woodlawn Ave #46-5-1E, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/4742-48-s.-woodlawn-ave/5XgGw2/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.80834,
+      "lon": -87.59739,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998850"
+    },
+    {
+      "title": "8640 S Ingleside Ave #8646-2D - Apartment for rent",
+      "price": 935.0,
+      "address": "8640 S Ingleside Ave #8646-2D, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/8640-s-ingleside-ave-chicago-il-60619/9RzcXj/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.737213,
+      "lon": -87.601425,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998854"
+    },
+    {
+      "title": "3949 W North Ave #1B-1Ba - Apartment for rent",
+      "price": 1000.0,
+      "address": "3949 W North Ave #1B-1Ba, Chicago, IL, 60647",
+      "url": "https://www.zillow.com/apartments/chicago-il/north-and-pulaski-elderly-apartments/CjgwDp/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.909584,
+      "lon": -87.72614,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998859"
+    },
+    {
+      "title": "8155 S Ingleside Ave #9423 - Apartment for rent",
+      "price": 935.0,
+      "address": "8155 S Ingleside Ave #9423, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/8155-s-ingleside/5XjwpT/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.74602,
+      "lon": -87.60105,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998863"
+    },
+    {
+      "title": "1807 S Saint Louis Ave #1809-2C - Apartment for rent",
+      "price": 1160.0,
+      "address": "1807 S Saint Louis Ave #1809-2C, Chicago, IL, 60623",
+      "url": "https://www.zillow.com/apartments/chicago-il/1807-s-st-louis-chicago-il-60623/CkBX/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.85691,
+      "lon": -87.712204,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998868"
+    },
+    {
+      "title": "8241 S Ellis Ave #8247-3A - Apartment for rent",
+      "price": 955.0,
+      "address": "8241 S Ellis Ave #8247-3A, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/8241-49-s-ellis-ave-chicago-il-60619/Cq3JvQ/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.744633,
+      "lon": -87.59996,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998872"
+    },
+    {
+      "title": "8806 S Cottage Grove Ave APT 2C - Apartment for rent",
+      "price": 975.0,
+      "address": "8806 S Cottage Grove Ave APT 2C, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/8806-s-cottage-grove-ave-chicago-il-60619/5XcQnh/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.734528,
+      "lon": -87.60519,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998876"
+    },
+    {
+      "title": "7756 S Marshfield Ave APT 101 - Apartment for rent",
+      "price": 935.0,
+      "address": "7756 S Marshfield Ave APT 101, Chicago, IL, 60620",
+      "url": "https://www.zillow.com/apartments/chicago-il/7756-s-marshfield-ave-1640-42-w-78th-st-chicago-il-60620/CkZTR4/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.752293,
+      "lon": -87.665054,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998881"
+    },
+    {
+      "title": "1135 W Pratt Blvd #1B-1Ba - Apartment for rent",
+      "price": 1295.0,
+      "address": "1135 W Pratt Blvd #1B-1Ba, Chicago, IL, 60626",
+      "url": "https://www.zillow.com/apartments/chicago-il/1135-w.-pratt/5XjZYs/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 42.005547,
+      "lon": -87.65973,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998886"
+    },
+    {
+      "title": "1329-1337 W Touhy Ave #13355-3N - Apartment for rent",
+      "price": 1470.0,
+      "address": "1329-1337 W Touhy Ave #13355-3N, Chicago, IL, 60626",
+      "url": "https://www.zillow.com/apartments/chicago-il/tlc-touhy-llc/CkBHZc/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 42.012447,
+      "lon": -87.66481,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998891"
+    },
+    {
+      "title": "1516-1518 E 70th St #1516-2B - Apartment for rent",
+      "price": 1000.0,
+      "address": "1516-1518 E 70th St #1516-2B, Chicago, IL, 60637",
+      "url": "https://www.zillow.com/apartments/chicago-il/1516-1518-e-70th-street-chicago-il-60637/BpYdgW/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.767433,
+      "lon": -87.6193,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998896"
+    },
+    {
+      "title": "5330 S Blackstone Ave #302 - Apartment for rent",
+      "price": 1290.0,
+      "address": "5330 S Blackstone Ave #302, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/ivy-dickens/CkBHJf/",
+      "source": "Zillow",
+      "amenities": [
+        "ac"
+      ],
+      "lat": 41.79852,
+      "lon": -87.59081,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998900"
+    },
+    {
+      "title": "8152 S Evans Ave #720-2B - Apartment for rent",
+      "price": 915.0,
+      "address": "8152 S Evans Ave #720-2B, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/8152-s-evans-714-20-e-82nd-chicago-il-60619/CpzJqb/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.746002,
+      "lon": -87.60665,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998906"
+    },
+    {
+      "title": "3432-40 W Franklin Blvd #3434-3C - Apartment for rent",
+      "price": 1200.0,
+      "address": "3432-40 W Franklin Blvd #3434-3C, Chicago, IL, 60624",
+      "url": "https://www.zillow.com/apartments/chicago-il/emerald-apartments/Cgs4yX/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.89066,
+      "lon": -87.71275,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998910"
+    },
+    {
+      "title": "6829 S Dr Martin Luther King Jr Dr #6845-3 - Apartment for rent",
+      "price": 995.0,
+      "address": "6829 S Dr Martin Luther King Jr Dr #6845-3, Chicago, IL, 60637",
+      "url": "https://www.zillow.com/apartments/chicago-il/6829-s-dr-martin-luther-king-jr-dr-chicago-il-60637/Bh33SY/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.77028,
+      "lon": -87.61539,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998915"
+    },
+    {
+      "title": "7018 S Cregier Ave #853a8d2ae - Apartment for rent",
+      "price": 900.0,
+      "address": "7018 S Cregier Ave #853a8d2ae, Chicago, IL, 60649",
+      "url": "https://www.zillow.com/apartments/chicago-il/highlands-tudor-manor-a-55+-community/5Xfzr8/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.767315,
+      "lon": -87.58171,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998920"
+    },
+    {
+      "title": "3501 W Adams St APT 3B - Apartment for rent",
+      "price": 1185.0,
+      "address": "3501 W Adams St APT 3B, Chicago, IL, 60624",
+      "url": "https://www.zillow.com/apartments/chicago-il/3501-w-adams-st-chicago-il-60624/5XfsyV/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.877987,
+      "lon": -87.71382,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998925"
+    },
+    {
+      "title": "1042 N Leamington Ave #1046-1A - Apartment for rent",
+      "price": 1105.0,
+      "address": "1042 N Leamington Ave #1046-1A, Chicago, IL, 60651",
+      "url": "https://www.zillow.com/apartments/chicago-il/1042-n-leamington-ave-chicago-il-60651/CSBm/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.89989,
+      "lon": -87.75494,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998929"
+    },
+    {
+      "title": "7340-50 N Damen Ave #2006-2 - Apartment for rent",
+      "price": 1350.0,
+      "address": "7340-50 N Damen Ave #2006-2, Chicago, IL, 60645",
+      "url": "https://www.zillow.com/apartments/chicago-il/7340-50-n.-damen-ave/CmGPQS/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 42.01534,
+      "lon": -87.68069,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998934"
+    },
+    {
+      "title": "10901 S Vernon Ave #10905-1 - Apartment for rent",
+      "price": 1080.0,
+      "address": "10901 S Vernon Ave #10905-1, Chicago, IL, 60628",
+      "url": "https://www.zillow.com/apartments/chicago-il/10901-s-vernon-433-35-e-109th-chicago-il-60628/CqSSc4/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.696213,
+      "lon": -87.6119,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998938"
+    },
+    {
+      "title": "4655 W Berteau Ave Unit 312 - Apartment for rent",
+      "price": 1350.0,
+      "address": "4655 W Berteau Ave Unit 312, Chicago, IL, 60641",
+      "url": "https://www.zillow.com/apartments/chicago-il/kilpatrick-renaissance/CjdVmG/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.95637,
+      "lon": -87.74514,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998943"
+    },
+    {
+      "title": "816-26 E 49th St #816-3S - Apartment for rent",
+      "price": 1395.0,
+      "address": "816-26 E 49th St #816-3S, Chicago, IL, 60615",
+      "url": "https://www.zillow.com/apartments/chicago-il/49th-street-apartments/ChQb7s/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.806057,
+      "lon": -87.60549,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998947"
+    },
+    {
+      "title": "7916 S Drexel Ave Unit 11 - Apartment for rent",
+      "price": 880.0,
+      "address": "7916 S Drexel Ave Unit 11, Chicago, IL, 60619",
+      "url": "https://www.zillow.com/apartments/chicago-il/7916-s-drexel-ave-chicago-il-60619/5XfSw7/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.750706,
+      "lon": -87.60318,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998951"
+    },
+    {
+      "title": "6306 S Artesian Ave APT 2F - Apartment for rent",
+      "price": 945.0,
+      "address": "6306 S Artesian Ave APT 2F, Chicago, IL, 60629",
+      "url": "https://www.zillow.com/apartments/chicago-il/6306-s-artesian-ave-2435-w-63rd-st-chicago-il-60629/BJ9R/",
+      "source": "Zillow",
+      "amenities": [],
+      "lat": 41.77906,
+      "lon": -87.68506,
+      "description": "",
+      "scraped_at": "2026-02-15T19:42:25.998956"
     }
   ]
 }

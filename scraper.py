@@ -301,62 +301,129 @@ def scrape_padmapper() -> list:
 
 
 def scrape_zillow_api() -> list:
-    """Fetch listings from Zillow via RapidAPI (requires RAPIDAPI_KEY)."""
+    """Fetch Chicago 1BR rental listings from Zillow via real-estate101 RapidAPI.
+
+    Uses the /api/search/byurl endpoint which accepts a Zillow search URL
+    with encoded searchQueryState filters. Paginates to get more results.
+    """
     if not config.RAPIDAPI_KEY:
         print("[Zillow API] Skipped - no RAPIDAPI_KEY set")
         return []
 
     listings = []
-    url = "https://zillow-com1.p.rapidapi.com/propertyExtendedSearch"
-    params = {
-        "location": "{}, {}".format(config.SEARCH_CITY, config.SEARCH_STATE),
-        "home_type": "Apartments",
-        "rentMinPrice": "0",
-        "rentMaxPrice": str(config.MAX_PRICE),
-        "bedsMin": "1",
-        "bedsMax": "1",
-        "status_type": "ForRent",
-    }
+    api_url = "https://real-estate101.p.rapidapi.com/api/search/byurl"
     headers = {
-        "X-RapidAPI-Key": config.RAPIDAPI_KEY,
-        "X-RapidAPI-Host": "zillow-com1.p.rapidapi.com",
+        "x-rapidapi-host": "real-estate101.p.rapidapi.com",
+        "x-rapidapi-key": config.RAPIDAPI_KEY,
     }
 
-    try:
-        resp = requests.get(url, headers=headers, params=params, timeout=30)
-        resp.raise_for_status()
-        data = resp.json()
+    # Zillow search URL with rental filters for Chicago 1BR under max price
+    # regionId 17426 = Chicago, IL; regionType 6 = city
+    zillow_qs = (
+        "%7B%22isMapVisible%22%3Atrue%2C%22mapBounds%22%3A%7B%22north%22%3A42.023131"
+        "%2C%22south%22%3A41.644335%2C%22east%22%3A-87.524044%2C%22west%22%3A-87.940267"
+        "%7D%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex"
+        "%22%7D%2C%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22fr%22%3A%7B%22value%22%3Atrue"
+        "%7D%2C%22fsba%22%3A%7B%22value%22%3Afalse%7D%2C%22fsbo%22%3A%7B%22value%22%3A"
+        "false%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%2C%22cmsn%22%3A%7B%22value%22"
+        "%3Afalse%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value"
+        "%22%3Afalse%7D%2C%22beds%22%3A%7B%22min%22%3A1%2C%22max%22%3A1%7D%2C%22mp%22"
+        "%3A%7B%22max%22%3A{max_price}%7D%7D%2C%22isListVisible%22%3Atrue%2C%22regionSelection"
+        "%22%3A%5B%7B%22regionId%22%3A17426%2C%22regionType%22%3A6%7D%5D%7D"
+    ).format(max_price=config.MAX_PRICE)
+    zillow_url = "https://www.zillow.com/chicago-il/rentals/?searchQueryState=" + zillow_qs
 
-        props = data.get("props", [])
-        for prop in props[:50]:
-            try:
-                price = prop.get("price")
-                if not price or price > config.MAX_PRICE:
+    # Paginate (up to 3 pages to stay within free tier limits)
+    for page in range(1, 4):
+        try:
+            params = {"url": zillow_url}
+            if page > 1:
+                params["page"] = str(page)
+
+            resp = requests.get(api_url, headers=headers, params=params, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+
+            if not data.get("success"):
+                print("[Zillow API] Page {} returned success=false".format(page))
+                break
+
+            results = data.get("results", [])
+            if not results:
+                break
+
+            for prop in results:
+                try:
+                    # Price — some listings have unformattedPrice, others don't
+                    price = prop.get("unformattedPrice")
+                    if price is None:
+                        price = _extract_price(prop.get("price", ""))
+                    if price is None:
+                        continue
+                    price = float(price)
+                    if price > config.MAX_PRICE or price < 300:
+                        continue
+
+                    # Address
+                    addr_obj = prop.get("address", {})
+                    if isinstance(addr_obj, dict):
+                        addr_parts = [
+                            addr_obj.get("street", ""),
+                            addr_obj.get("city", ""),
+                            addr_obj.get("state", ""),
+                            addr_obj.get("zipcode", ""),
+                        ]
+                        address = ", ".join(p for p in addr_parts if p)
+                    else:
+                        address = str(addr_obj) if addr_obj else "Chicago, IL"
+
+                    # Title
+                    title = prop.get("statusText") or address
+                    street = addr_obj.get("street", "") if isinstance(addr_obj, dict) else ""
+                    if street and title != street:
+                        title = "{} - {}".format(street, title)
+
+                    # Coordinates
+                    lat, lon = None, None
+                    ll = prop.get("latLong", {})
+                    if isinstance(ll, dict):
+                        try:
+                            lat = float(ll["latitude"])
+                            lon = float(ll["longitude"])
+                        except (KeyError, ValueError, TypeError):
+                            pass
+
+                    # URL
+                    detail_url = prop.get("detailUrl", "")
+                    if detail_url and not detail_url.startswith("http"):
+                        detail_url = "https://www.zillow.com" + detail_url
+
+                    # Amenity matching on available text
+                    status = prop.get("statusText", "")
+                    combined = "{} {} {}".format(title, address, status)
+                    passes, matched_amenities = _matches_amenities(combined)
+
+                    listings.append(Listing(
+                        title=title,
+                        price=price,
+                        address=address,
+                        url=detail_url,
+                        source="Zillow",
+                        amenities=matched_amenities,
+                        lat=lat,
+                        lon=lon,
+                    ))
+                except Exception:
                     continue
 
-                address = prop.get("address", "")
-                desc = prop.get("description", "")
-                combined = "{} {}".format(address, desc)
-                passes, matched_amenities = _matches_amenities(combined)
+            print("[Zillow API] Page {}: {} results".format(page, len(results)))
+            _random_delay()
 
-                listings.append(Listing(
-                    title=prop.get("addressStreet", address),
-                    price=float(price),
-                    address=address,
-                    url="https://www.zillow.com{}".format(prop.get("detailUrl", "")),
-                    source="Zillow",
-                    amenities=matched_amenities,
-                    lat=prop.get("latitude"),
-                    lon=prop.get("longitude"),
-                    description=desc[:500],
-                ))
-            except Exception:
-                continue
+        except Exception as e:
+            print("[Zillow API] Error on page {}: {}".format(page, e))
+            break
 
-    except Exception as e:
-        print("[Zillow API] Error: {}".format(e))
-
-    print("[Zillow API] Found {} listings".format(len(listings)))
+    print("[Zillow API] Found {} listings total".format(len(listings)))
     return listings
 
 
